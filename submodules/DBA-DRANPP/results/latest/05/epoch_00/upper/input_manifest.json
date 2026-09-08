@@ -1,0 +1,16 @@
+{
+  "association": "results/latest/05/initial_partition_associations.csv",
+  "candidate_support": "/home/jackal/zyx/dpgo_ICRA/DBA-DRANPP/experiments/dba/05/candidate_support.csv",
+  "candidate_support_sha256": "0233a088ca110affc66af053083229f117429ec24f588b4d0d71879aaee2edb9",
+  "cavity_dir": "results/latest/05/epoch_00/lower",
+  "component_intensity": "empirical",
+  "feedback_variant": "heldout_network",
+  "independent_gauge_seed": null,
+  "independent_gauges": [],
+  "initial_partition_sha256": "7f856cf653eed996defc5bae15c3dfc77b4bd44aba80458a36575c0a006750d2",
+  "metadata": "/home/jackal/zyx/dpgo_ICRA/DBA-DRANPP/experiments/dba/05/data/local_object_metadata.csv",
+  "plane_axes": "xy",
+  "robot_covariance_mode": "full",
+  "topology": "/home/jackal/zyx/dpgo_ICRA/DBA-DRANPP/experiments/dba/upper_topology.csv",
+  "upper_objective": "joint_cavity_leave_pair"
+}

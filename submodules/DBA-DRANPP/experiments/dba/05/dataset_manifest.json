@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "name": "SemanticKITTI-05",
+  "data_dir": "data",
+  "metadata": "data/local_object_metadata.csv",
+  "lower_topology": "../lower_topology.csv",
+  "upper_topology": "../upper_topology.csv",
+  "ground_truth": "data/gt_associations.csv",
+  "initial_association": "initial_associations.csv",
+  "candidate_support": "candidate_support.csv",
+  "num_robots": 3,
+  "num_objects": 259,
+  "plane_axes": "xy"
+}

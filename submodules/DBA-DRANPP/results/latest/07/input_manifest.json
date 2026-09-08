@@ -1,0 +1,6 @@
+{
+  "delivered_response_pattern": "1",
+  "initial_association": "/home/jackal/zyx/dpgo_ICRA/DBA-DRANPP/experiments/dba/07/initial_associations.csv",
+  "minimum_weight": 0.5,
+  "safety_max_outer_iterations": 20
+}

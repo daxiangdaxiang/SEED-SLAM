@@ -1,0 +1,58 @@
+{
+  "schema_version": "mrclam_benchmark_manifest_v1",
+  "benchmark_id": "mrclam_dataset1_native5_v3",
+  "description": "UTIAS MR.CLAM Dataset 1, five physical robots with shared cylindrical barcode landmarks and no artificial initialization perturbation",
+  "native_multi_robot": true,
+  "source": {
+    "project_url": "https://asrl.utias.utoronto.ca/datasets/mrclam/",
+    "citation_doi": "10.1177/0278364911398404",
+    "download_url": "ftp://asrl3.utias.utoronto.ca/MRCLAM/MRCLAM1.zip"
+  },
+  "provenance": {
+    "physical_robot_count": 5,
+    "simultaneous_collection": true,
+    "clock_synchronization": "NTP, documented average error approximately 1e-3 s",
+    "generated_by_trajectory_partition": false,
+    "generated_by_sequential_replay": false
+  },
+  "archive": {
+    "filename": "MRCLAM1.zip",
+    "sha256": "57c0166b0e2761680e83ffa67b4f58bad7187c41fd723345a4a45ebd50a6557e",
+    "dataset_directory": "MRCLAM_Dataset1"
+  },
+  "robot_subjects": [1, 2, 3, 4, 5],
+  "static_landmark_subjects": [6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20],
+  "extraction": {
+    "keyframe_period_s": 1.0,
+    "observation_reduction": "motion_compensated_component_median",
+    "dynamic_teammate_observations": "exclude"
+  },
+  "objective": {
+    "factor_model": "range_bearing_median_isotropic_v1",
+    "odometry_translation_sigma_m": 0.1,
+    "odometry_yaw_sigma_rad": 0.05,
+    "odometry_kappa": 200.0,
+    "odometry_tau": 100.0,
+    "observation_range_sigma_m": 0.1,
+    "observation_bearing_sigma_rad": 0.05,
+    "observation_kappa": 1e-6,
+    "observation_tau": 1.0,
+    "observation_rotation_role": "nuisance_orientation_regularizer"
+  },
+  "initialization": {
+    "root_robot_subject": 1,
+    "registration_window_s": 30.0,
+    "translation_perturbation_m": 0.0,
+    "yaw_perturbation_deg": 0.0,
+    "ground_truth_allowed": false
+  },
+  "evaluation": {
+    "seeds": [0, 1, 2],
+    "fixed_checkpoints": [1, 2, 5, 10, 20, 50],
+    "max_iterations": 50,
+    "relative_cost_tolerance": 1e-6,
+    "gradient_tolerance": 1e-4,
+    "consecutive_rounds": 3,
+    "object_ground_truth_label_map": {"11": 17, "17": 11}
+  }
+}

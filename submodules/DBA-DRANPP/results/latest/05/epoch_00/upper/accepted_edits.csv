@@ -1,0 +1,4 @@
+step,kind,robot,object,target_robot,target_object
+0,merge,1,159,2,76
+1,merge,0,77,1,64
+2,merge,0,78,1,65

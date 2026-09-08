@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "selected_backend": "latest_parent_worktree_plus_dba_compatibility_hooks",
+  "previous_backend_commit": "35d79e9803b7fbbfbdf06e027949a118cc701c7f",
+  "selected_backend_base_commit": "a105e82ca1c3cae7b4d53d0e28560a186f9cec24",
+  "association_outputs_identical": true,
+  "datasets": {
+    "05": {
+      "partition_hashes_identical": true,
+      "association_metrics_identical": true,
+      "association_f1": 0.8571428571428571,
+      "network_partition_f1": 0.6807387862796833,
+      "previous_total_communication_mb": 5.578486442565918,
+      "selected_total_communication_mb": 4.664698600769043,
+      "communication_change_percent": -16.380569374953307,
+      "previous_final_measurement_cost": 208.98305923517935,
+      "selected_final_measurement_cost": 208.98305346440648,
+      "measurement_cost_change_percent": -0.0000027613591714143213
+    },
+    "07": {
+      "partition_hashes_identical": true,
+      "association_metrics_identical": true,
+      "association_f1": 0.9695431472081218,
+      "network_partition_f1": 0.9302325581395349,
+      "previous_total_communication_mb": 2.03070068359375,
+      "selected_total_communication_mb": 1.809326171875,
+      "communication_change_percent": -10.901385591055273,
+      "previous_final_measurement_cost": 257.06302327830275,
+      "selected_final_measurement_cost": 257.1004782883556,
+      "measurement_cost_change_percent": 0.014570360830265512
+    }
+  },
+  "result_hashes": {
+    "05_summary_json": "483c92d7d259929a41461782a20590d108101fd8b16fc17e7d32184c99724dff",
+    "05_final_posthoc_metrics_json": "decaaab6a3add3ecc30e9467a6b97880a27c6403efaafccc86b7e99a3ad7af8c",
+    "07_summary_json": "d812b29077f2c1d6bd79089a4b8efbab20b92754f5cda801445010a96ec64874",
+    "07_final_posthoc_metrics_json": "7ffcb598e18eec4562505613c2d19cb87e4d93cea4973366eb7da285d3f28893"
+  }
+}

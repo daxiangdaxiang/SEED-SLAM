@@ -1,0 +1,3 @@
+attempted_round,pattern_index,delivered,delivered_response_index,status,input_partition_hash,output_partition_hash,epoch_dir,lower_dir,upper_dir
+0,0,1,0,continue,7bd8f6c31f0312d8976e44d845b8dddefe99a006eef640ce176822648dc2ba01,6661a4d465c2bc73b4851ca47ffcfaa808acdef3943248061f6cb516e0637ab0,results/latest/05/epoch_00,results/latest/05/epoch_00/lower,results/latest/05/epoch_00/upper
+1,0,1,1,partition_fixed_point,6661a4d465c2bc73b4851ca47ffcfaa808acdef3943248061f6cb516e0637ab0,6661a4d465c2bc73b4851ca47ffcfaa808acdef3943248061f6cb516e0637ab0,results/latest/05/epoch_01,results/latest/05/epoch_01/lower,results/latest/05/epoch_01/upper

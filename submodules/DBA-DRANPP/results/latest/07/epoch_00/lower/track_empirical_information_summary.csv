@@ -1,0 +1,2 @@
+enabled,track_count,observation_count,singleton_track_count,overdispersed_track_count,singleton_track_fraction,overdispersed_track_fraction,scale_min,scale_median,scale_mean,scale_p90,scale_max,effective_sample_ratio_median,effective_sample_ratio_mean
+true,449,4970,10,0,0.022271714922048997665,0,0.097417344852358395135,0.48549786165310637731,0.56511876933474136653,1,1,0.48549786165310637731,0.56511876933474136653

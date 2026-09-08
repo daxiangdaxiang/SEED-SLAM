@@ -1,0 +1,2 @@
+attempted_round,pattern_index,delivered,delivered_response_index,status,input_partition_hash,output_partition_hash,epoch_dir,lower_dir,upper_dir
+0,0,1,0,partition_fixed_point,bb7b802608976a1b5e496c876bc37a84175e1d6709e2f0c114e613607b423d91,bb7b802608976a1b5e496c876bc37a84175e1d6709e2f0c114e613607b423d91,results/latest/07/epoch_00,results/latest/07/epoch_00/lower,results/latest/07/epoch_00/upper

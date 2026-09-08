@@ -1,0 +1,39 @@
+{
+  "algorithmic_hyperparameters": {},
+  "attempted_outer_rounds": 1,
+  "candidate_support_paths": [
+    "/home/jackal/zyx/dpgo_ICRA/DBA-DRANPP/experiments/dba/07/candidate_support.csv"
+  ],
+  "candidate_support_sha256": [
+    "1b5fe413342fec89bead38b94e944a7c83956d787fb14604c89b2a3978bea9ed"
+  ],
+  "component_intensity_modes": [
+    "empirical"
+  ],
+  "crossfit_block_surrogate": true,
+  "delivered_response_count": 1,
+  "delivered_response_pattern": "1",
+  "feedback_variants": [
+    "heldout_network"
+  ],
+  "final_association": "results/latest/07/initial_partition_associations.csv",
+  "final_lower_dir": "results/latest/07/epoch_00/lower",
+  "full_lower_response_count": 1,
+  "ground_truth_used_by_optimizer": false,
+  "initial_partition_sha256": "bb7b802608976a1b5e496c876bc37a84175e1d6709e2f0c114e613607b423d91",
+  "method": "dba_joint_cavity_crossfit_fixed_point",
+  "partition_hashes": [
+    "bb7b802608976a1b5e496c876bc37a84175e1d6709e2f0c114e613607b423d91",
+    "bb7b802608976a1b5e496c876bc37a84175e1d6709e2f0c114e613607b423d91"
+  ],
+  "robot_covariance_modes": [
+    "full"
+  ],
+  "scheduled_missing_response_count": 0,
+  "status": "partition_fixed_point",
+  "total_communication_mb": 1.809326171875,
+  "upper_objectives": [
+    "joint_cavity_leave_pair"
+  ],
+  "upper_solve_count": 1
+}

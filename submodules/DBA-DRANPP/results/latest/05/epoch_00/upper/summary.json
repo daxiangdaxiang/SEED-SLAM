@@ -1,0 +1,51 @@
+{
+  "accepted_edit_count": 3,
+  "attribute_model": "collapsed_gaussian_empirical_noise",
+  "attribute_names": [],
+  "attribute_noise": [],
+  "candidate_edge_count": 131,
+  "candidate_edge_counts": [
+    131
+  ],
+  "candidate_support_path": "/home/jackal/zyx/dpgo_ICRA/DBA-DRANPP/experiments/dba/05/candidate_support.csv",
+  "candidate_support_sha256": "0233a088ca110affc66af053083229f117429ec24f588b4d0d71879aaee2edb9",
+  "component_intensities": {
+    "10": 168.0,
+    "71": 149.0,
+    "80": 116.0
+  },
+  "component_intensity": "empirical",
+  "component_intensity_model": "empirical_semantic_ppp",
+  "copy_count": 561,
+  "crossfit_block_surrogate": true,
+  "distributed_canonical_state_sync_messages": 12,
+  "distributed_canonical_state_sync_payload_bytes": 1892480,
+  "distributed_selection_consensus_rounds": 8,
+  "distributed_selection_payload_bytes": 555,
+  "duplicate_robot_component_count": 0,
+  "elapsed_seconds": 5.345989735913463,
+  "feedback_variant": "heldout_network",
+  "final_component_count": 430,
+  "final_objective": 7074.4141862981,
+  "final_objective_terms": {
+    "attribute_nll": 0.0,
+    "cardinality": -4301.029676226306,
+    "log_determinant": 8293.508881779824,
+    "mahalanobis": 1019.8369122332978,
+    "normalization": 2062.0980685112854,
+    "state_nll": 11375.443862524406,
+    "total": 7074.4141862981
+  },
+  "ground_truth_used_by_optimizer": false,
+  "hyperparameters": {},
+  "initial_component_count": 433,
+  "initial_objective": 7093.661733956988,
+  "initial_partition_sha256": "7f856cf653eed996defc5bae15c3dfc77b4bd44aba80458a36575c0a006750d2",
+  "method": "distributed_joint_cavity_crossfit_partition",
+  "mode": "joint_cavity_leave_pair_crossfit_profile",
+  "network_feasible": true,
+  "objective_decrease": 19.247547658888834,
+  "objective_evaluations": 364,
+  "robot_covariance_mode": "full",
+  "upper_objective": "joint_cavity_leave_pair"
+}

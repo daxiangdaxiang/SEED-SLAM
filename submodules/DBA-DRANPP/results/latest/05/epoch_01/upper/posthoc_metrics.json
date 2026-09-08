@@ -1,0 +1,17 @@
+{
+  "association_f1": 0.8571428571428571,
+  "association_false_negative": 82,
+  "association_false_positive": 4,
+  "association_precision": 0.9847328244274809,
+  "association_recall": 0.7588235294117647,
+  "association_selected": 262,
+  "association_true_positive": 258,
+  "network_partition_f1": 0.6807387862796833,
+  "network_partition_false_negative": 119,
+  "network_partition_false_positive": 2,
+  "network_partition_precision": 0.9847328244274809,
+  "network_partition_recall": 0.5201612903225806,
+  "network_partition_selected": 131,
+  "network_partition_true_positive": 129,
+  "network_partition_truth": 248
+}
