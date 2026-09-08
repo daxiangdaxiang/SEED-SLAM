@@ -1,0 +1,37 @@
+object_slot,original_global_vertex_id,name,node_type,category,support_robot_count,support_robot_ids,support_robots,directed_association_rows
+0,1304,O01,apriltag_object,,7,0 1 3 6 7 8 9,A2W dingo001 dingo003 jackal2 ugv1 ugv2 ugv3,12
+1,1305,O02,apriltag_object,,9,0 1 2 3 5 6 7 8 9,A2W dingo001 dingo002 dingo003 jackal1 jackal2 ugv1 ugv2 ugv3,16
+2,1306,O03,apriltag_object,,8,0 1 2 3 6 7 8 9,A2W dingo001 dingo002 dingo003 jackal2 ugv1 ugv2 ugv3,14
+3,1307,O04,apriltag_object,,8,1 2 3 4 5 7 8 9,dingo001 dingo002 dingo003 go2W jackal1 ugv1 ugv2 ugv3,14
+4,1308,O05,apriltag_object,,9,0 1 2 3 4 6 7 8 9,A2W dingo001 dingo002 dingo003 go2W jackal2 ugv1 ugv2 ugv3,16
+5,1309,O06,apriltag_object,,6,0 1 2 6 8 9,A2W dingo001 dingo002 jackal2 ugv2 ugv3,10
+6,1310,O07,apriltag_object,,6,0 1 2 3 6 9,A2W dingo001 dingo002 dingo003 jackal2 ugv3,10
+7,1311,chair1_001,semantic_object,chair1,4,1 6 7 9,dingo001 jackal2 ugv1 ugv3,6
+8,1312,chair1_003,semantic_object,chair1,3,0 2 3,A2W dingo002 dingo003,8
+9,1313,chair1_004,semantic_object,chair1,4,0 1 5 9,A2W dingo001 jackal1 ugv3,6
+10,1314,chair2_001,semantic_object,chair2,3,1 5 6,dingo001 jackal1 jackal2,6
+11,1315,chair2_002,semantic_object,chair2,5,0 1 2 7 9,A2W dingo001 dingo002 ugv1 ugv3,8
+12,1316,chair2_003,semantic_object,chair2,2,1 4,dingo001 go2W,2
+13,1317,tent_001,semantic_object,tent,3,1 3 5,dingo001 dingo003 jackal1,6
+14,1318,tent_002,semantic_object,tent,4,1 2 3 5,dingo001 dingo002 dingo003 jackal1,8
+15,,interloop_0000_dingo001:000116__dingo002:000138,inter_robot_loop_separator,supervlad_gicp_inter_robot_loop,2,1 2,dingo001 dingo002,4
+16,,interloop_0001_dingo001:000110__dingo002:000128,inter_robot_loop_separator,supervlad_gicp_inter_robot_loop,2,1 2,dingo001 dingo002,4
+17,,interloop_0002_dingo001:000135__dingo002:000154,inter_robot_loop_separator,supervlad_gicp_inter_robot_loop,2,1 2,dingo001 dingo002,4
+18,,interloop_0003_dingo001:000081__dingo003:000051,inter_robot_loop_separator,supervlad_gicp_inter_robot_loop,2,1 3,dingo001 dingo003,4
+19,,interloop_0004_dingo001:000052__dingo003:000025,inter_robot_loop_separator,supervlad_gicp_inter_robot_loop,2,1 3,dingo001 dingo003,4
+20,,interloop_0005_dingo001:000085__dingo003:000053,inter_robot_loop_separator,supervlad_gicp_inter_robot_loop,2,1 3,dingo001 dingo003,4
+21,,interloop_0006_dingo002:000111__dingo003:000056,inter_robot_loop_separator,supervlad_gicp_inter_robot_loop,2,2 3,dingo002 dingo003,4
+22,,interloop_0007_dingo002:000094__dingo003:000052,inter_robot_loop_separator,supervlad_gicp_inter_robot_loop,2,2 3,dingo002 dingo003,4
+23,,interloop_0008_dingo002:000062__dingo003:000094,inter_robot_loop_separator,supervlad_gicp_inter_robot_loop,2,2 3,dingo002 dingo003,4
+24,,interloop_0009_jackal1:000014__jackal2:000031,inter_robot_loop_separator,supervlad_gicp_inter_robot_loop,2,5 6,jackal1 jackal2,6
+25,,interloop_0010_jackal1:000064__jackal2:000076,inter_robot_loop_separator,supervlad_gicp_inter_robot_loop,2,5 6,jackal1 jackal2,6
+26,,interloop_0011_jackal1:000059__jackal2:000072,inter_robot_loop_separator,supervlad_gicp_inter_robot_loop,2,5 6,jackal1 jackal2,6
+27,,interloop_0012_ugv1:000008__ugv2:000007,inter_robot_loop_separator,supervlad_gicp_inter_robot_loop,2,7 8,ugv1 ugv2,4
+28,,interloop_0013_ugv1:000118__ugv2:000109,inter_robot_loop_separator,supervlad_gicp_inter_robot_loop,2,7 8,ugv1 ugv2,4
+29,,interloop_0014_ugv1:000095__ugv2:000067,inter_robot_loop_separator,supervlad_gicp_inter_robot_loop,2,7 8,ugv1 ugv2,4
+30,,interloop_0015_ugv1:000000__ugv3:000002,inter_robot_loop_separator,supervlad_gicp_inter_robot_loop,2,7 9,ugv1 ugv3,2
+31,,interloop_0016_ugv1:000023__ugv3:000035,inter_robot_loop_separator,supervlad_gicp_inter_robot_loop,2,7 9,ugv1 ugv3,2
+32,,interloop_0017_ugv1:000031__ugv3:000040,inter_robot_loop_separator,supervlad_gicp_inter_robot_loop,2,7 9,ugv1 ugv3,2
+33,,interloop_0018_ugv2:000000__ugv3:000006,inter_robot_loop_separator,supervlad_gicp_inter_robot_loop,2,8 9,ugv2 ugv3,2
+34,,interloop_0019_ugv2:000049__ugv3:000136,inter_robot_loop_separator,supervlad_gicp_inter_robot_loop,2,8 9,ugv2 ugv3,2
+35,,interloop_0020_ugv2:000015__ugv3:000026,inter_robot_loop_separator,supervlad_gicp_inter_robot_loop,2,8 9,ugv2 ugv3,2

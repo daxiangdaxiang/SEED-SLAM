@@ -1,0 +1,245 @@
+{
+  "source": "/media/andrew/T7/indoor/object.txt",
+  "frame": "motion-capture global coordinate",
+  "pose_convention": "T_mocap_global_object. The UGV2 poses recorded in each object-orbit bag use the same motion-capture global coordinate. O1-O7 use AprilTag-defined object frames; tent/chair entries use named ground-truth object frames. A separate T_object_automatic_model is needed only to express the reconstructed point/mesh model in that provided object frame.",
+  "taxonomy": {
+    "apriltag_object": "O1-O7",
+    "tent": "tent1-tent2",
+    "chair1": "Chair1_1-Chair1_3",
+    "chair2": "Chair2_1-Chair2_3"
+  },
+  "counts": {
+    "apriltag_object": 7,
+    "tent": 2,
+    "chair1": 3,
+    "chair2": 3,
+    "total": 15
+  },
+  "objects": {
+    "O1": {
+      "position_xyz": [
+        -5.55191455078125,
+        -1.9747501220703125,
+        0.835892333984375
+      ],
+      "quaternion_xyzw": [
+        -0.02365899085998535,
+        -0.010968208312988281,
+        -0.7912823557853699,
+        0.6108946204185486
+      ],
+      "category": "apriltag_object",
+      "pose_definition": "apriltag_defined_object_frame"
+    },
+    "O2": {
+      "position_xyz": [
+        -1.5617679443359376,
+        0.08272109985351563,
+        0.7656746215820313
+      ],
+      "quaternion_xyzw": [
+        -0.010230481624603271,
+        -0.001234695315361023,
+        -0.3877373933792114,
+        0.9217122793197632
+      ],
+      "category": "apriltag_object",
+      "pose_definition": "apriltag_defined_object_frame"
+    },
+    "O3": {
+      "position_xyz": [
+        0.03883573150634766,
+        -1.9122587890625,
+        0.9024769897460938
+      ],
+      "quaternion_xyzw": [
+        -0.01438075304031372,
+        0.0027709901332855225,
+        -0.7015672922134399,
+        0.7124526500701904
+      ],
+      "category": "apriltag_object",
+      "pose_definition": "apriltag_defined_object_frame"
+    },
+    "O4": {
+      "position_xyz": [
+        2.386037353515625,
+        1.8666580810546876,
+        0.8384169921875
+      ],
+      "quaternion_xyzw": [
+        -0.015680968761444092,
+        -0.010280460119247437,
+        -0.6405837535858154,
+        0.7676593065261841
+      ],
+      "category": "apriltag_object",
+      "pose_definition": "apriltag_defined_object_frame"
+    },
+    "O5": {
+      "position_xyz": [
+        3.4118525390625,
+        -2.029576904296875,
+        0.8724135131835937
+      ],
+      "quaternion_xyzw": [
+        -0.007349371910095215,
+        -0.002163037657737732,
+        0.34056001901626587,
+        0.9401915669441223
+      ],
+      "category": "apriltag_object",
+      "pose_definition": "apriltag_defined_object_frame"
+    },
+    "O6": {
+      "position_xyz": [
+        6.7489833984375,
+        -2.727267333984375,
+        0.8160117797851563
+      ],
+      "quaternion_xyzw": [
+        0.01409420371055603,
+        0.006245821714401245,
+        0.9688094854354858,
+        0.24732676148414612
+      ],
+      "category": "apriltag_object",
+      "pose_definition": "apriltag_defined_object_frame"
+    },
+    "O7": {
+      "position_xyz": [
+        4.81978173828125,
+        -4.91335205078125,
+        0.717799560546875
+      ],
+      "quaternion_xyzw": [
+        0.0019475221633911133,
+        0.0024801206309348345,
+        0.010035297833383083,
+        0.9999446868896484
+      ],
+      "category": "apriltag_object",
+      "pose_definition": "apriltag_defined_object_frame"
+    },
+    "tent1": {
+      "position_xyz": [
+        6.7600302734375,
+        1.5004434814453125,
+        0.5627964477539062
+      ],
+      "quaternion_xyzw": [
+        0.007322388235479593,
+        0.0375189483165741,
+        0.9992470741271973,
+        0.006612289231270552
+      ],
+      "category": "tent",
+      "pose_definition": "named_object_ground_truth_frame"
+    },
+    "tent2": {
+      "position_xyz": [
+        -1.551859130859375,
+        6.0950634765625,
+        0.63507763671875
+      ],
+      "quaternion_xyzw": [
+        0.018299907445907593,
+        0.015005618333816528,
+        0.29514679312705994,
+        0.9551588296890259
+      ],
+      "category": "tent",
+      "pose_definition": "named_object_ground_truth_frame"
+    },
+    "Chair1_1": {
+      "position_xyz": [
+        -5.1686298828125,
+        2.066078857421875,
+        0.6021828002929688
+      ],
+      "quaternion_xyzw": [
+        0.03273449093103409,
+        -0.00028398633003234863,
+        0.9827655553817749,
+        -0.18193495273590088
+      ],
+      "category": "chair1",
+      "pose_definition": "named_object_ground_truth_frame"
+    },
+    "Chair1_2": {
+      "position_xyz": [
+        -0.46315090942382814,
+        3.085220458984375,
+        0.5335454711914063
+      ],
+      "quaternion_xyzw": [
+        -0.0016989409923553467,
+        -0.02788575366139412,
+        0.10906068980693817,
+        0.9936424493789673
+      ],
+      "category": "chair1",
+      "pose_definition": "named_object_ground_truth_frame"
+    },
+    "Chair1_3": {
+      "position_xyz": [
+        7.66517236328125,
+        -7.78348193359375,
+        0.49985250854492186
+      ],
+      "quaternion_xyzw": [
+        0.05086115002632141,
+        -0.009481966495513916,
+        0.9614024758338928,
+        0.27023762464523315
+      ],
+      "category": "chair1",
+      "pose_definition": "named_object_ground_truth_frame"
+    },
+    "Chair2_1": {
+      "position_xyz": [
+        -5.25451513671875,
+        7.83671875,
+        0.6592632446289063
+      ],
+      "quaternion_xyzw": [
+        -0.03500986099243164,
+        -0.09298580884933472,
+        -0.8295338153839111,
+        0.5495465993881226
+      ],
+      "category": "chair2",
+      "pose_definition": "named_object_ground_truth_frame"
+    },
+    "Chair2_2": {
+      "position_xyz": [
+        4.6441298828125,
+        6.1295146484375,
+        0.4627613525390625
+      ],
+      "quaternion_xyzw": [
+        -0.043966323137283325,
+        -0.022981703281402588,
+        -0.6681538224220276,
+        0.7423673868179321
+      ],
+      "category": "chair2",
+      "pose_definition": "named_object_ground_truth_frame"
+    },
+    "Chair2_3": {
+      "position_xyz": [
+        -4.0136806640625,
+        -5.80353515625,
+        0.6696513061523437
+      ],
+      "quaternion_xyzw": [
+        0.042292967438697815,
+        -0.0337824821472168,
+        0.8889538049697876,
+        0.4547869563102722
+      ],
+      "category": "chair2",
+      "pose_definition": "named_object_ground_truth_frame"
+    }
+  }
+}

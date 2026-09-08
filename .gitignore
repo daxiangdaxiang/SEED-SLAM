@@ -1,6 +1,8 @@
 /build/
 /data/*
 !/data/README.md
+!/data/Indoor_10_robots/
+!/data/Indoor_10_robots/**
 __pycache__/
 .pytest_cache/
 *.py[cod]
