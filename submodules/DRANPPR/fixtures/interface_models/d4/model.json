@@ -1,0 +1,78 @@
+{
+  "robots": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "objects": 17,
+  "dimension": 34,
+  "local_private_max_relative_residual": 4.755935154020778e-14,
+  "scope": "Frozen physical Jacobian, exact root column already excluded; nominal weights unchanged",
+  "row_setup": "Offline pre-distributed owner rows, not a model-exchange implementation",
+  "links": [
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      4,
+      5
+    ]
+  ],
+  "indices": {
+    "1": [
+      16,
+      17,
+      24,
+      25
+    ],
+    "2": [
+      12,
+      13,
+      20,
+      21,
+      26,
+      27,
+      30,
+      31,
+      32,
+      33
+    ],
+    "3": [
+      8,
+      9
+    ],
+    "4": [
+      4,
+      5,
+      6,
+      7,
+      14,
+      15,
+      28,
+      29
+    ],
+    "5": [
+      0,
+      1,
+      2,
+      3,
+      10,
+      11,
+      18,
+      19,
+      22,
+      23
+    ]
+  }
+}

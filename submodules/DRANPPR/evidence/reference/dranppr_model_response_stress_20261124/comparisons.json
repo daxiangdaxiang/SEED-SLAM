@@ -1,0 +1,514 @@
+[
+  {
+    "case": "d1",
+    "scenario": "delay",
+    "seed": 34,
+    "name": "model_response_vs_baseline",
+    "equal_bytes": "win",
+    "alignment": {
+      "budget": 3760848,
+      "candidate_tick": 1103,
+      "reference_tick": 1999,
+      "candidate_gap": 1.7586657298919714e-05,
+      "reference_gap": 2.1204798041784005e-05,
+      "result": "win"
+    },
+    "equal_ticks": "win"
+  },
+  {
+    "case": "d1",
+    "scenario": "delay",
+    "seed": 34,
+    "name": "model_response_vs_budget_hold",
+    "equal_bytes": "loss",
+    "alignment": {
+      "budget": 3760848,
+      "candidate_tick": 1103,
+      "reference_tick": 1999,
+      "candidate_gap": 1.7586657298919714e-05,
+      "reference_gap": 1.702283376156323e-05,
+      "result": "loss"
+    },
+    "equal_ticks": "loss"
+  },
+  {
+    "case": "d1",
+    "scenario": "delay",
+    "seed": 34,
+    "name": "model_response_vs_budget_predict",
+    "equal_bytes": "win",
+    "alignment": {
+      "budget": 3760848,
+      "candidate_tick": 1103,
+      "reference_tick": 1999,
+      "candidate_gap": 1.7586657298919714e-05,
+      "reference_gap": 2.655588358828838e+21,
+      "result": "win"
+    },
+    "equal_ticks": "win"
+  },
+  {
+    "case": "d1",
+    "scenario": "delay",
+    "seed": 34,
+    "name": "model_response_vs_model_frozen",
+    "equal_bytes": "win",
+    "alignment": {
+      "budget": 6797280,
+      "candidate_tick": 1999,
+      "reference_tick": 1999,
+      "candidate_gap": 1.7265762159018712e-05,
+      "reference_gap": 6.783985888497219e-05,
+      "result": "win"
+    },
+    "equal_ticks": "win"
+  },
+  {
+    "case": "d1",
+    "scenario": "outage",
+    "seed": 34,
+    "name": "model_response_vs_baseline",
+    "equal_bytes": "win",
+    "alignment": {
+      "budget": 3610240,
+      "candidate_tick": 1140,
+      "reference_tick": 1999,
+      "candidate_gap": 1.8444262755997358e-05,
+      "reference_gap": 8.146352422292976e-05,
+      "result": "win"
+    },
+    "equal_ticks": "win"
+  },
+  {
+    "case": "d1",
+    "scenario": "outage",
+    "seed": 34,
+    "name": "model_response_vs_budget_hold",
+    "equal_bytes": "loss",
+    "alignment": {
+      "budget": 3610240,
+      "candidate_tick": 1140,
+      "reference_tick": 1999,
+      "candidate_gap": 1.8444262755997358e-05,
+      "reference_gap": 1.692891679138831e-05,
+      "result": "loss"
+    },
+    "equal_ticks": "win"
+  },
+  {
+    "case": "d1",
+    "scenario": "outage",
+    "seed": 34,
+    "name": "model_response_vs_budget_predict",
+    "equal_bytes": "loss",
+    "alignment": {
+      "budget": 3610240,
+      "candidate_tick": 1140,
+      "reference_tick": 1999,
+      "candidate_gap": 1.8444262755997358e-05,
+      "reference_gap": 1.3084599306152992e-05,
+      "result": "loss"
+    },
+    "equal_ticks": "loss"
+  },
+  {
+    "case": "d1",
+    "scenario": "outage",
+    "seed": 34,
+    "name": "model_response_vs_model_frozen",
+    "equal_bytes": "win",
+    "alignment": {
+      "budget": 6522320,
+      "candidate_tick": 1999,
+      "reference_tick": 1999,
+      "candidate_gap": 1.6009084149866842e-05,
+      "reference_gap": 3.4909040182570305e-05,
+      "result": "win"
+    },
+    "equal_ticks": "win"
+  },
+  {
+    "case": "d4",
+    "scenario": "delay",
+    "seed": 34,
+    "name": "model_response_vs_baseline",
+    "equal_bytes": "loss",
+    "alignment": {
+      "budget": 4872176,
+      "candidate_tick": 1127,
+      "reference_tick": 1999,
+      "candidate_gap": 0.0011769271176836605,
+      "reference_gap": 0.0011457959847964902,
+      "result": "loss"
+    },
+    "equal_ticks": "win"
+  },
+  {
+    "case": "d4",
+    "scenario": "delay",
+    "seed": 34,
+    "name": "model_response_vs_budget_hold",
+    "equal_bytes": "loss",
+    "alignment": {
+      "budget": 4872176,
+      "candidate_tick": 1127,
+      "reference_tick": 1999,
+      "candidate_gap": 0.0011769271176836605,
+      "reference_gap": 0.0006512890108515575,
+      "result": "loss"
+    },
+    "equal_ticks": "win"
+  },
+  {
+    "case": "d4",
+    "scenario": "delay",
+    "seed": 34,
+    "name": "model_response_vs_budget_predict",
+    "equal_bytes": "win",
+    "alignment": {
+      "budget": 4872176,
+      "candidate_tick": 1127,
+      "reference_tick": 1999,
+      "candidate_gap": 0.0011769271176836605,
+      "reference_gap": 9.787207520674483e+20,
+      "result": "win"
+    },
+    "equal_ticks": "win"
+  },
+  {
+    "case": "d4",
+    "scenario": "delay",
+    "seed": 34,
+    "name": "model_response_vs_model_frozen",
+    "equal_bytes": "win",
+    "alignment": {
+      "budget": 8637808,
+      "candidate_tick": 1999,
+      "reference_tick": 1999,
+      "candidate_gap": 0.00056248237254511,
+      "reference_gap": 0.005274241517232431,
+      "result": "win"
+    },
+    "equal_ticks": "win"
+  },
+  {
+    "case": "d4",
+    "scenario": "outage",
+    "seed": 34,
+    "name": "model_response_vs_baseline",
+    "equal_bytes": "win",
+    "alignment": {
+      "budget": 4671248,
+      "candidate_tick": 1164,
+      "reference_tick": 1999,
+      "candidate_gap": 0.0001341203830409455,
+      "reference_gap": 0.002143637011947451,
+      "result": "win"
+    },
+    "equal_ticks": "win"
+  },
+  {
+    "case": "d4",
+    "scenario": "outage",
+    "seed": 34,
+    "name": "model_response_vs_budget_hold",
+    "equal_bytes": "loss",
+    "alignment": {
+      "budget": 4671248,
+      "candidate_tick": 1164,
+      "reference_tick": 1999,
+      "candidate_gap": 0.0001341203830409455,
+      "reference_gap": 1.773801145771055e-05,
+      "result": "loss"
+    },
+    "equal_ticks": "win"
+  },
+  {
+    "case": "d4",
+    "scenario": "outage",
+    "seed": 34,
+    "name": "model_response_vs_budget_predict",
+    "equal_bytes": "loss",
+    "alignment": {
+      "budget": 4671248,
+      "candidate_tick": 1164,
+      "reference_tick": 1999,
+      "candidate_gap": 0.0001341203830409455,
+      "reference_gap": 1.4105113563293103e-06,
+      "result": "loss"
+    },
+    "equal_ticks": "loss"
+  },
+  {
+    "case": "d4",
+    "scenario": "outage",
+    "seed": 34,
+    "name": "model_response_vs_model_frozen",
+    "equal_bytes": "win",
+    "alignment": {
+      "budget": 8279440,
+      "candidate_tick": 1999,
+      "reference_tick": 1999,
+      "candidate_gap": 1.213338902294503e-05,
+      "reference_gap": 0.003259450460134431,
+      "result": "win"
+    },
+    "equal_ticks": "win"
+  },
+  {
+    "case": "se3_31",
+    "scenario": "delay",
+    "seed": 34,
+    "name": "model_response_vs_baseline",
+    "equal_bytes": "loss",
+    "alignment": {
+      "budget": 544000,
+      "candidate_tick": 1081,
+      "reference_tick": 1999,
+      "candidate_gap": 0.0001579350570734805,
+      "reference_gap": 3.60190525053186e-05,
+      "result": "loss"
+    },
+    "equal_ticks": "win"
+  },
+  {
+    "case": "se3_31",
+    "scenario": "delay",
+    "seed": 34,
+    "name": "model_response_vs_budget_hold",
+    "equal_bytes": "loss",
+    "alignment": {
+      "budget": 544000,
+      "candidate_tick": 1081,
+      "reference_tick": 1999,
+      "candidate_gap": 0.0001579350570734805,
+      "reference_gap": 5.56810430432896e-07,
+      "result": "loss"
+    },
+    "equal_ticks": "win"
+  },
+  {
+    "case": "se3_31",
+    "scenario": "delay",
+    "seed": 34,
+    "name": "model_response_vs_budget_predict",
+    "equal_bytes": "loss",
+    "alignment": {
+      "budget": 544000,
+      "candidate_tick": 1081,
+      "reference_tick": 1999,
+      "candidate_gap": 0.0001579350570734805,
+      "reference_gap": 1.333366967081202e-14,
+      "result": "loss"
+    },
+    "equal_ticks": "loss"
+  },
+  {
+    "case": "se3_31",
+    "scenario": "delay",
+    "seed": 34,
+    "name": "model_response_vs_model_frozen",
+    "equal_bytes": "win",
+    "alignment": {
+      "budget": 999008,
+      "candidate_tick": 1999,
+      "reference_tick": 1999,
+      "candidate_gap": 4.685312260184979e-07,
+      "reference_gap": 0.1813348732586136,
+      "result": "win"
+    },
+    "equal_ticks": "win"
+  },
+  {
+    "case": "se3_31",
+    "scenario": "outage",
+    "seed": 34,
+    "name": "model_response_vs_baseline",
+    "equal_bytes": "win",
+    "alignment": {
+      "budget": 544000,
+      "candidate_tick": 1081,
+      "reference_tick": 1999,
+      "candidate_gap": 1.4251100169644686e-11,
+      "reference_gap": 0.09093439543702352,
+      "result": "win"
+    },
+    "equal_ticks": "win"
+  },
+  {
+    "case": "se3_31",
+    "scenario": "outage",
+    "seed": 34,
+    "name": "model_response_vs_budget_hold",
+    "equal_bytes": "loss",
+    "alignment": {
+      "budget": 544000,
+      "candidate_tick": 1081,
+      "reference_tick": 1999,
+      "candidate_gap": 1.4251100169644686e-11,
+      "reference_gap": 6.517116049360433e-23,
+      "result": "loss"
+    },
+    "equal_ticks": "tie"
+  },
+  {
+    "case": "se3_31",
+    "scenario": "outage",
+    "seed": 34,
+    "name": "model_response_vs_budget_predict",
+    "equal_bytes": "loss",
+    "alignment": {
+      "budget": 544000,
+      "candidate_tick": 1081,
+      "reference_tick": 1999,
+      "candidate_gap": 1.4251100169644686e-11,
+      "reference_gap": 1.962012461249637e-28,
+      "result": "loss"
+    },
+    "equal_ticks": "tie"
+  },
+  {
+    "case": "se3_31",
+    "scenario": "outage",
+    "seed": 34,
+    "name": "model_response_vs_model_frozen",
+    "equal_bytes": "win",
+    "alignment": {
+      "budget": 999008,
+      "candidate_tick": 1999,
+      "reference_tick": 1999,
+      "candidate_gap": 1.9520631815879138e-24,
+      "reference_gap": 0.023758317160261177,
+      "result": "win"
+    },
+    "equal_ticks": "win"
+  },
+  {
+    "case": "coupled_spd",
+    "scenario": "delay",
+    "seed": 34,
+    "name": "model_response_vs_baseline",
+    "equal_bytes": "win",
+    "alignment": {
+      "budget": 1920000,
+      "candidate_tick": 1331,
+      "reference_tick": 1999,
+      "candidate_gap": 0.0010595075232307852,
+      "reference_gap": 0.001637696076582648,
+      "result": "win"
+    },
+    "equal_ticks": "win"
+  },
+  {
+    "case": "coupled_spd",
+    "scenario": "delay",
+    "seed": 34,
+    "name": "model_response_vs_budget_hold",
+    "equal_bytes": "loss",
+    "alignment": {
+      "budget": 1920000,
+      "candidate_tick": 1331,
+      "reference_tick": 1999,
+      "candidate_gap": 0.0010595075232307852,
+      "reference_gap": 0.00010696114934484561,
+      "result": "loss"
+    },
+    "equal_ticks": "win"
+  },
+  {
+    "case": "coupled_spd",
+    "scenario": "delay",
+    "seed": 34,
+    "name": "model_response_vs_budget_predict",
+    "equal_bytes": "win",
+    "alignment": {
+      "budget": 1920000,
+      "candidate_tick": 1331,
+      "reference_tick": 1999,
+      "candidate_gap": 0.0010595075232307852,
+      "reference_gap": 1.607833409091143e+103,
+      "result": "win"
+    },
+    "equal_ticks": "win"
+  },
+  {
+    "case": "coupled_spd",
+    "scenario": "delay",
+    "seed": 34,
+    "name": "model_response_vs_model_frozen",
+    "equal_bytes": "win",
+    "alignment": {
+      "budget": 2881440,
+      "candidate_tick": 1999,
+      "reference_tick": 1999,
+      "candidate_gap": 7.641720605428003e-05,
+      "reference_gap": 0.45074664505774625,
+      "result": "win"
+    },
+    "equal_ticks": "win"
+  },
+  {
+    "case": "coupled_spd",
+    "scenario": "outage",
+    "seed": 34,
+    "name": "model_response_vs_baseline",
+    "equal_bytes": "win",
+    "alignment": {
+      "budget": 1920000,
+      "candidate_tick": 1331,
+      "reference_tick": 1999,
+      "candidate_gap": 1.0828014894503741e-11,
+      "reference_gap": 0.04556417564156568,
+      "result": "win"
+    },
+    "equal_ticks": "win"
+  },
+  {
+    "case": "coupled_spd",
+    "scenario": "outage",
+    "seed": 34,
+    "name": "model_response_vs_budget_hold",
+    "equal_bytes": "loss",
+    "alignment": {
+      "budget": 1920000,
+      "candidate_tick": 1331,
+      "reference_tick": 1999,
+      "candidate_gap": 1.0828014894503741e-11,
+      "reference_gap": 2.7000094022033743e-17,
+      "result": "loss"
+    },
+    "equal_ticks": "win"
+  },
+  {
+    "case": "coupled_spd",
+    "scenario": "outage",
+    "seed": 34,
+    "name": "model_response_vs_budget_predict",
+    "equal_bytes": "loss",
+    "alignment": {
+      "budget": 1920000,
+      "candidate_tick": 1331,
+      "reference_tick": 1999,
+      "candidate_gap": 1.0828014894503741e-11,
+      "reference_gap": 9.00718277518863e-21,
+      "result": "loss"
+    },
+    "equal_ticks": "loss"
+  },
+  {
+    "case": "coupled_spd",
+    "scenario": "outage",
+    "seed": 34,
+    "name": "model_response_vs_model_frozen",
+    "equal_bytes": "win",
+    "alignment": {
+      "budget": 2881440,
+      "candidate_tick": 1999,
+      "reference_tick": 1999,
+      "candidate_gap": 6.99720572428493e-18,
+      "reference_gap": 0.007621554888008491,
+      "result": "win"
+    },
+    "equal_ticks": "win"
+  }
+]

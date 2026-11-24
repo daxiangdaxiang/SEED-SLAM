@@ -1,0 +1,21 @@
+{
+  "schema_version": "mrclam_synthetic_se3_manifest_v1",
+  "benchmark_id": "mrclam_dataset2_synthetic_se3_objectpose3_v2",
+  "source_manifest": "../../mrclam/manifests/dataset2.json",
+  "claim": "MR.CLAM-derived Synthetic SE(3)-ObjectPose3; non-planar motion and object orientations are synthetic",
+  "object_identity_corrections": {},
+  "object_identity_correction_basis": "none",
+  "generation": {
+    "dataset_number": 2,
+    "generator_seed": 731021,
+    "z_amplitude_m": 0.6,
+    "roll_amplitude_deg": 6.0,
+    "pitch_amplitude_deg": 7.0,
+    "profile_cycles": 2.0,
+    "object_height_min_m": 0.4,
+    "object_height_max_m": 1.6,
+    "object_rotation_sigma_rad": 0.05
+  },
+  "repeats": [0, 1, 2],
+  "checkpoints": [1, 2, 5, 10, 20, 50]
+}

@@ -1,0 +1,54 @@
+{
+  "runs": 40,
+  "incomplete": 0,
+  "comparisons": {
+    "model_response_vs_baseline": {
+      "equal_bytes": {
+        "win": 6,
+        "tie": 0,
+        "loss": 2
+      },
+      "equal_ticks": {
+        "win": 8,
+        "tie": 0,
+        "loss": 0
+      }
+    },
+    "model_response_vs_budget_hold": {
+      "equal_bytes": {
+        "win": 0,
+        "tie": 0,
+        "loss": 8
+      },
+      "equal_ticks": {
+        "win": 6,
+        "tie": 1,
+        "loss": 1
+      }
+    },
+    "model_response_vs_budget_predict": {
+      "equal_bytes": {
+        "win": 3,
+        "tie": 0,
+        "loss": 5
+      },
+      "equal_ticks": {
+        "win": 3,
+        "tie": 1,
+        "loss": 4
+      }
+    },
+    "model_response_vs_model_frozen": {
+      "equal_bytes": {
+        "win": 8,
+        "tie": 0,
+        "loss": 0
+      },
+      "equal_ticks": {
+        "win": 8,
+        "tie": 0,
+        "loss": 0
+      }
+    }
+  }
+}

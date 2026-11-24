@@ -1,0 +1,4762 @@
+[
+  {
+    "mode": "directional",
+    "scenario": "delay",
+    "seed": 34,
+    "ticks_completed": 2000,
+    "relative_gap": 2.1204798041784005e-05,
+    "relative_residual": 0.00014081609294905946,
+    "first_gap_1e6_tick": null,
+    "application_bytes": 3760848,
+    "hop_messages": 31872,
+    "dropped_packets": 0,
+    "delivered_packets": 19736,
+    "obsolete_or_duplicate_packets": 10603,
+    "updates": 8000,
+    "global_reductions": 0,
+    "synchronous_barriers": 0,
+    "max_cache_age": 55,
+    "bound_violations": 0,
+    "steps": {
+      "1": [
+        0.08711937789699167,
+        1.0000000000000007
+      ],
+      "2": [
+        0.010828280952093776,
+        1.0000000000000029
+      ],
+      "3": [
+        0.018355224543757667,
+        0.41119598407522623
+      ],
+      "4": [
+        0.009876008559966834,
+        0.9999856573861564
+      ]
+    },
+    "period_ticks": {
+      "1": 1,
+      "2": 1,
+      "3": 1,
+      "4": 1
+    },
+    "prediction": "hold",
+    "history_size": 8,
+    "model_setup_bytes": 0,
+    "model_statistics": {
+      "corrections": 0,
+      "innovation_sq": 0
+    },
+    "model_setup_contract": "Additional descriptors charged, setup delivery assumed; common row/chart setup excluded",
+    "forecast_degree_counts": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "response_statistics": {
+      "fits": 0,
+      "validations": 0,
+      "final_gains": [],
+      "validated_error": 0,
+      "validated_hold_error": 0
+    },
+    "error_budget_statistics": {
+      "supported_steps": 0,
+      "fallback_steps": 0,
+      "zero_steps": 0,
+      "validated": 0,
+      "unlabelled": 0,
+      "expired": 0,
+      "scored_bounds": 0,
+      "retrospective_violations": 0,
+      "max_pending": 0
+    },
+    "gradient_error_sq_sum": 8.086680668630157,
+    "held_gradient_error_sq_sum": 8.086680668630157,
+    "delay_bounds": {
+      "1:1": 0,
+      "1:2": 22,
+      "1:3": 42,
+      "1:4": 62,
+      "2:1": 22,
+      "2:2": 0,
+      "2:3": 22,
+      "2:4": 42,
+      "3:1": 42,
+      "3:2": 22,
+      "3:3": 0,
+      "3:4": 22,
+      "4:1": 62,
+      "4:2": 42,
+      "4:3": 22,
+      "4:4": 0
+    },
+    "finite": true,
+    "horizon_complete": true,
+    "initial_state_norm": 4.295470651782315,
+    "setup_bytes_included": false,
+    "simulated_time_unit": "compute-opportunity tick, not milliseconds",
+    "synchronous_control": "Optimistic free barrier, not original DRAN PCG",
+    "loss_guarantee": "Configured bounded-delay contract",
+    "arm": "baseline",
+    "case": "d1",
+    "service_seconds": 0.668687401805073,
+    "audit": {
+      "update_discrepancy": 4.440892098500626e-16,
+      "supported_updates": 0,
+      "actual_error_covered": 0,
+      "actual_error_coverage": null,
+      "fully_supported_ticks": 0,
+      "certified_ticks": 0,
+      "conditional_bound_violation": 0.0,
+      "objective_decrease_ticks": 2000
+    }
+  },
+  {
+    "mode": "error_budget",
+    "scenario": "delay",
+    "seed": 34,
+    "ticks_completed": 2000,
+    "relative_gap": 1.702283376156323e-05,
+    "relative_residual": 8.753470052524703e-05,
+    "first_gap_1e6_tick": null,
+    "application_bytes": 3760848,
+    "hop_messages": 31872,
+    "dropped_packets": 0,
+    "delivered_packets": 19736,
+    "obsolete_or_duplicate_packets": 10603,
+    "updates": 8000,
+    "global_reductions": 0,
+    "synchronous_barriers": 0,
+    "max_cache_age": 55,
+    "bound_violations": 0,
+    "steps": {
+      "1": [
+        0.08711937789699167,
+        1.0000000000000007
+      ],
+      "2": [
+        0.010828280952093776,
+        1.0000000000000029
+      ],
+      "3": [
+        0.018355224543757667,
+        0.41119598407522623
+      ],
+      "4": [
+        0.009876008559966834,
+        0.9999856573861564
+      ]
+    },
+    "period_ticks": {
+      "1": 1,
+      "2": 1,
+      "3": 1,
+      "4": 1
+    },
+    "prediction": "hold",
+    "history_size": 8,
+    "model_setup_bytes": 0,
+    "model_statistics": {
+      "corrections": 0,
+      "innovation_sq": 0
+    },
+    "model_setup_contract": "Additional descriptors charged, setup delivery assumed; common row/chart setup excluded",
+    "forecast_degree_counts": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "response_statistics": {
+      "fits": 0,
+      "validations": 0,
+      "final_gains": [],
+      "validated_error": 0,
+      "validated_hold_error": 0
+    },
+    "error_budget_statistics": {
+      "supported_steps": 6610,
+      "fallback_steps": 1390,
+      "zero_steps": 4104,
+      "validated": 9133,
+      "unlabelled": 10626,
+      "expired": 0,
+      "scored_bounds": 8103,
+      "retrospective_violations": 785,
+      "max_pending": 54
+    },
+    "gradient_error_sq_sum": 25.89014331850927,
+    "held_gradient_error_sq_sum": 25.89014331850927,
+    "delay_bounds": {
+      "1:1": 0,
+      "1:2": 22,
+      "1:3": 42,
+      "1:4": 62,
+      "2:1": 22,
+      "2:2": 0,
+      "2:3": 22,
+      "2:4": 42,
+      "3:1": 42,
+      "3:2": 22,
+      "3:3": 0,
+      "3:4": 22,
+      "4:1": 62,
+      "4:2": 42,
+      "4:3": 22,
+      "4:4": 0
+    },
+    "finite": true,
+    "horizon_complete": true,
+    "initial_state_norm": 4.295470651782315,
+    "setup_bytes_included": false,
+    "simulated_time_unit": "compute-opportunity tick, not milliseconds",
+    "synchronous_control": "Optimistic free barrier, not original DRAN PCG",
+    "loss_guarantee": "Configured bounded-delay contract",
+    "arm": "budget_hold",
+    "case": "d1",
+    "service_seconds": 1.3641639868728817,
+    "audit": {
+      "update_discrepancy": 2.220446049250313e-16,
+      "supported_updates": 6610,
+      "actual_error_covered": 6489,
+      "actual_error_coverage": 0.9816944024205749,
+      "fully_supported_ticks": 1300,
+      "certified_ticks": 1207,
+      "conditional_bound_violation": 0.0,
+      "objective_decrease_ticks": 1994
+    }
+  },
+  {
+    "mode": "error_budget",
+    "scenario": "delay",
+    "seed": 34,
+    "ticks_completed": 2000,
+    "relative_gap": 2.655588358828838e+21,
+    "relative_residual": 69180116124.86664,
+    "first_gap_1e6_tick": null,
+    "application_bytes": 3760848,
+    "hop_messages": 31872,
+    "dropped_packets": 0,
+    "delivered_packets": 19736,
+    "obsolete_or_duplicate_packets": 10603,
+    "updates": 8000,
+    "global_reductions": 0,
+    "synchronous_barriers": 0,
+    "max_cache_age": 55,
+    "bound_violations": 0,
+    "steps": {
+      "1": [
+        0.08711937789699167,
+        1.0000000000000007
+      ],
+      "2": [
+        0.010828280952093776,
+        1.0000000000000029
+      ],
+      "3": [
+        0.018355224543757667,
+        0.41119598407522623
+      ],
+      "4": [
+        0.009876008559966834,
+        0.9999856573861564
+      ]
+    },
+    "period_ticks": {
+      "1": 1,
+      "2": 1,
+      "3": 1,
+      "4": 1
+    },
+    "prediction": "response_linear",
+    "history_size": 8,
+    "model_setup_bytes": 0,
+    "model_statistics": {
+      "corrections": 0,
+      "innovation_sq": 0
+    },
+    "model_setup_contract": "Additional descriptors charged, setup delivery assumed; common row/chart setup excluded",
+    "forecast_degree_counts": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "response_statistics": {
+      "fits": 9133,
+      "validations": 9123,
+      "final_gains": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "validated_error": 7.932734940468074e+20,
+      "validated_hold_error": 6.261320221782488e+20
+    },
+    "error_budget_statistics": {
+      "supported_steps": 6610,
+      "fallback_steps": 1390,
+      "zero_steps": 4423,
+      "validated": 9133,
+      "unlabelled": 10626,
+      "expired": 0,
+      "scored_bounds": 8103,
+      "retrospective_violations": 4068,
+      "max_pending": 54
+    },
+    "gradient_error_sq_sum": 2.094549090202831e+24,
+    "held_gradient_error_sq_sum": 8.319510950090348e+23,
+    "delay_bounds": {
+      "1:1": 0,
+      "1:2": 22,
+      "1:3": 42,
+      "1:4": 62,
+      "2:1": 22,
+      "2:2": 0,
+      "2:3": 22,
+      "2:4": 42,
+      "3:1": 42,
+      "3:2": 22,
+      "3:3": 0,
+      "3:4": 22,
+      "4:1": 62,
+      "4:2": 42,
+      "4:3": 22,
+      "4:4": 0
+    },
+    "finite": true,
+    "horizon_complete": true,
+    "initial_state_norm": 4.295470651782315,
+    "setup_bytes_included": false,
+    "simulated_time_unit": "compute-opportunity tick, not milliseconds",
+    "synchronous_control": "Optimistic free barrier, not original DRAN PCG",
+    "loss_guarantee": "Configured bounded-delay contract",
+    "arm": "budget_predict",
+    "case": "d1",
+    "service_seconds": 2.2318237530998886,
+    "audit": {
+      "update_discrepancy": 8.699568353793691e-15,
+      "supported_updates": 6610,
+      "actual_error_covered": 2983,
+      "actual_error_coverage": 0.45128593040847204,
+      "fully_supported_ticks": 1300,
+      "certified_ticks": 134,
+      "conditional_bound_violation": 0.0,
+      "objective_decrease_ticks": 1289
+    }
+  },
+  {
+    "mode": "error_budget",
+    "scenario": "delay",
+    "seed": 34,
+    "ticks_completed": 2000,
+    "relative_gap": 1.7265762159018712e-05,
+    "relative_residual": 0.00011112326714095641,
+    "first_gap_1e6_tick": null,
+    "application_bytes": 6797280,
+    "hop_messages": 31872,
+    "dropped_packets": 0,
+    "delivered_packets": 19736,
+    "obsolete_or_duplicate_packets": 10603,
+    "updates": 8000,
+    "global_reductions": 0,
+    "synchronous_barriers": 0,
+    "max_cache_age": 55,
+    "bound_violations": 0,
+    "steps": {
+      "1": [
+        0.08711937789699167,
+        1.0000000000000007
+      ],
+      "2": [
+        0.010828280952093776,
+        1.0000000000000029
+      ],
+      "3": [
+        0.018355224543757667,
+        0.41119598407522623
+      ],
+      "4": [
+        0.009876008559966834,
+        0.9999856573861564
+      ]
+    },
+    "period_ticks": {
+      "1": 1,
+      "2": 1,
+      "3": 1,
+      "4": 1
+    },
+    "prediction": "model_response",
+    "history_size": 8,
+    "model_setup_bytes": 40512,
+    "model_statistics": {
+      "corrections": 9123,
+      "innovation_sq": 2.831707802639631
+    },
+    "model_setup_contract": "Additional descriptors charged, setup delivery assumed; common row/chart setup excluded",
+    "forecast_degree_counts": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "response_statistics": {
+      "fits": 0,
+      "validations": 0,
+      "final_gains": [],
+      "validated_error": 0,
+      "validated_hold_error": 0
+    },
+    "error_budget_statistics": {
+      "supported_steps": 6610,
+      "fallback_steps": 1390,
+      "zero_steps": 5313,
+      "validated": 9133,
+      "unlabelled": 10626,
+      "expired": 0,
+      "scored_bounds": 8103,
+      "retrospective_violations": 844,
+      "max_pending": 54
+    },
+    "gradient_error_sq_sum": 25.889652226929613,
+    "held_gradient_error_sq_sum": 25.89039298298893,
+    "delay_bounds": {
+      "1:1": 0,
+      "1:2": 22,
+      "1:3": 42,
+      "1:4": 62,
+      "2:1": 22,
+      "2:2": 0,
+      "2:3": 22,
+      "2:4": 42,
+      "3:1": 42,
+      "3:2": 22,
+      "3:3": 0,
+      "3:4": 22,
+      "4:1": 62,
+      "4:2": 42,
+      "4:3": 22,
+      "4:4": 0
+    },
+    "finite": true,
+    "horizon_complete": true,
+    "initial_state_norm": 4.295470651782315,
+    "setup_bytes_included": false,
+    "simulated_time_unit": "compute-opportunity tick, not milliseconds",
+    "synchronous_control": "Optimistic free barrier, not original DRAN PCG",
+    "loss_guarantee": "Configured bounded-delay contract",
+    "arm": "model_response",
+    "case": "d1",
+    "service_seconds": 1.9538798280991614,
+    "audit": {
+      "update_discrepancy": 2.220446049250313e-16,
+      "supported_updates": 6610,
+      "actual_error_covered": 6438,
+      "actual_error_coverage": 0.9739788199697428,
+      "fully_supported_ticks": 1300,
+      "certified_ticks": 1174,
+      "conditional_bound_violation": 0.0,
+      "objective_decrease_ticks": 1984
+    }
+  },
+  {
+    "mode": "error_budget",
+    "scenario": "delay",
+    "seed": 34,
+    "ticks_completed": 2000,
+    "relative_gap": 6.783985888497219e-05,
+    "relative_residual": 0.007151674216643527,
+    "first_gap_1e6_tick": null,
+    "application_bytes": 6797280,
+    "hop_messages": 31872,
+    "dropped_packets": 0,
+    "delivered_packets": 19736,
+    "obsolete_or_duplicate_packets": 10603,
+    "updates": 8000,
+    "global_reductions": 0,
+    "synchronous_barriers": 0,
+    "max_cache_age": 55,
+    "bound_violations": 0,
+    "steps": {
+      "1": [
+        0.08711937789699167,
+        1.0000000000000007
+      ],
+      "2": [
+        0.010828280952093776,
+        1.0000000000000029
+      ],
+      "3": [
+        0.018355224543757667,
+        0.41119598407522623
+      ],
+      "4": [
+        0.009876008559966834,
+        0.9999856573861564
+      ]
+    },
+    "period_ticks": {
+      "1": 1,
+      "2": 1,
+      "3": 1,
+      "4": 1
+    },
+    "prediction": "model_frozen",
+    "history_size": 8,
+    "model_setup_bytes": 40512,
+    "model_statistics": {
+      "corrections": 0,
+      "innovation_sq": 6.454804829674956
+    },
+    "model_setup_contract": "Additional descriptors charged, setup delivery assumed; common row/chart setup excluded",
+    "forecast_degree_counts": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "response_statistics": {
+      "fits": 0,
+      "validations": 0,
+      "final_gains": [],
+      "validated_error": 0,
+      "validated_hold_error": 0
+    },
+    "error_budget_statistics": {
+      "supported_steps": 6610,
+      "fallback_steps": 1390,
+      "zero_steps": 5934,
+      "validated": 9133,
+      "unlabelled": 10626,
+      "expired": 0,
+      "scored_bounds": 8103,
+      "retrospective_violations": 1210,
+      "max_pending": 54
+    },
+    "gradient_error_sq_sum": 113.06778425556033,
+    "held_gradient_error_sq_sum": 41.05958728109367,
+    "delay_bounds": {
+      "1:1": 0,
+      "1:2": 22,
+      "1:3": 42,
+      "1:4": 62,
+      "2:1": 22,
+      "2:2": 0,
+      "2:3": 22,
+      "2:4": 42,
+      "3:1": 42,
+      "3:2": 22,
+      "3:3": 0,
+      "3:4": 22,
+      "4:1": 62,
+      "4:2": 42,
+      "4:3": 22,
+      "4:4": 0
+    },
+    "finite": true,
+    "horizon_complete": true,
+    "initial_state_norm": 4.295470651782315,
+    "setup_bytes_included": false,
+    "simulated_time_unit": "compute-opportunity tick, not milliseconds",
+    "synchronous_control": "Optimistic free barrier, not original DRAN PCG",
+    "loss_guarantee": "Configured bounded-delay contract",
+    "arm": "model_frozen",
+    "case": "d1",
+    "service_seconds": 1.9369283160194755,
+    "audit": {
+      "update_discrepancy": 2.220446049250313e-16,
+      "supported_updates": 6610,
+      "actual_error_covered": 6098,
+      "actual_error_coverage": 0.9225416036308624,
+      "fully_supported_ticks": 1300,
+      "certified_ticks": 948,
+      "conditional_bound_violation": 0.0,
+      "objective_decrease_ticks": 1806
+    }
+  },
+  {
+    "mode": "directional",
+    "scenario": "outage",
+    "seed": 34,
+    "ticks_completed": 2000,
+    "relative_gap": 8.146352422292976e-05,
+    "relative_residual": 0.007435751755755981,
+    "first_gap_1e6_tick": null,
+    "application_bytes": 3610240,
+    "hop_messages": 30778,
+    "dropped_packets": 2398,
+    "delivered_packets": 17562,
+    "obsolete_or_duplicate_packets": 5901,
+    "updates": 8000,
+    "global_reductions": 0,
+    "synchronous_barriers": 0,
+    "max_cache_age": 410,
+    "bound_violations": 0,
+    "steps": {
+      "1": [
+        0.014560244567405671,
+        1.0000000000000024
+      ],
+      "2": [
+        0.0013617543783190646,
+        1.0000000000000078
+      ],
+      "3": [
+        0.0013530210104348666,
+        0.1268283539105538
+      ],
+      "4": [
+        0.0008444585994682951,
+        0.9998607884390269
+      ]
+    },
+    "period_ticks": {
+      "1": 1,
+      "2": 1,
+      "3": 1,
+      "4": 1
+    },
+    "prediction": "hold",
+    "history_size": 8,
+    "model_setup_bytes": 0,
+    "model_statistics": {
+      "corrections": 0,
+      "innovation_sq": 0
+    },
+    "model_setup_contract": "Additional descriptors charged, setup delivery assumed; common row/chart setup excluded",
+    "forecast_degree_counts": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "response_statistics": {
+      "fits": 0,
+      "validations": 0,
+      "final_gains": [],
+      "validated_error": 0,
+      "validated_hold_error": 0
+    },
+    "error_budget_statistics": {
+      "supported_steps": 0,
+      "fallback_steps": 0,
+      "zero_steps": 0,
+      "validated": 0,
+      "unlabelled": 0,
+      "expired": 0,
+      "scored_bounds": 0,
+      "retrospective_violations": 0,
+      "max_pending": 0
+    },
+    "gradient_error_sq_sum": 44.154284215771206,
+    "held_gradient_error_sq_sum": 44.154284215771206,
+    "delay_bounds": {
+      "1:1": 0,
+      "1:2": 7,
+      "1:3": 12,
+      "1:4": 417,
+      "2:1": 7,
+      "2:2": 0,
+      "2:3": 7,
+      "2:4": 412,
+      "3:1": 12,
+      "3:2": 7,
+      "3:3": 0,
+      "3:4": 407,
+      "4:1": 417,
+      "4:2": 412,
+      "4:3": 407,
+      "4:4": 0
+    },
+    "finite": true,
+    "horizon_complete": true,
+    "initial_state_norm": 4.295470651782315,
+    "setup_bytes_included": false,
+    "simulated_time_unit": "compute-opportunity tick, not milliseconds",
+    "synchronous_control": "Optimistic free barrier, not original DRAN PCG",
+    "loss_guarantee": "Configured bounded-delay contract",
+    "arm": "baseline",
+    "case": "d1",
+    "service_seconds": 0.6631216648966074,
+    "audit": {
+      "update_discrepancy": 6.661338147750939e-16,
+      "supported_updates": 0,
+      "actual_error_covered": 0,
+      "actual_error_coverage": null,
+      "fully_supported_ticks": 0,
+      "certified_ticks": 0,
+      "conditional_bound_violation": 0.0,
+      "objective_decrease_ticks": 2000
+    }
+  },
+  {
+    "mode": "error_budget",
+    "scenario": "outage",
+    "seed": 34,
+    "ticks_completed": 2000,
+    "relative_gap": 1.692891679138831e-05,
+    "relative_residual": 0.000105830335048661,
+    "first_gap_1e6_tick": null,
+    "application_bytes": 3610240,
+    "hop_messages": 30778,
+    "dropped_packets": 2398,
+    "delivered_packets": 17562,
+    "obsolete_or_duplicate_packets": 5901,
+    "updates": 8000,
+    "global_reductions": 0,
+    "synchronous_barriers": 0,
+    "max_cache_age": 410,
+    "bound_violations": 0,
+    "steps": {
+      "1": [
+        0.014560244567405671,
+        1.0000000000000024
+      ],
+      "2": [
+        0.0013617543783190646,
+        1.0000000000000078
+      ],
+      "3": [
+        0.0013530210104348666,
+        0.1268283539105538
+      ],
+      "4": [
+        0.0008444585994682951,
+        0.9998607884390269
+      ]
+    },
+    "period_ticks": {
+      "1": 1,
+      "2": 1,
+      "3": 1,
+      "4": 1
+    },
+    "prediction": "hold",
+    "history_size": 8,
+    "model_setup_bytes": 0,
+    "model_statistics": {
+      "corrections": 0,
+      "innovation_sq": 0
+    },
+    "model_setup_contract": "Additional descriptors charged, setup delivery assumed; common row/chart setup excluded",
+    "forecast_degree_counts": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "response_statistics": {
+      "fits": 0,
+      "validations": 0,
+      "final_gains": [],
+      "validated_error": 0,
+      "validated_hold_error": 0
+    },
+    "error_budget_statistics": {
+      "supported_steps": 5905,
+      "fallback_steps": 2095,
+      "zero_steps": 2964,
+      "validated": 9428,
+      "unlabelled": 8309,
+      "expired": 0,
+      "scored_bounds": 8899,
+      "retrospective_violations": 875,
+      "max_pending": 409
+    },
+    "gradient_error_sq_sum": 3.9463106935763173,
+    "held_gradient_error_sq_sum": 3.9463106935763173,
+    "delay_bounds": {
+      "1:1": 0,
+      "1:2": 7,
+      "1:3": 12,
+      "1:4": 417,
+      "2:1": 7,
+      "2:2": 0,
+      "2:3": 7,
+      "2:4": 412,
+      "3:1": 12,
+      "3:2": 7,
+      "3:3": 0,
+      "3:4": 407,
+      "4:1": 417,
+      "4:2": 412,
+      "4:3": 407,
+      "4:4": 0
+    },
+    "finite": true,
+    "horizon_complete": true,
+    "initial_state_norm": 4.295470651782315,
+    "setup_bytes_included": false,
+    "simulated_time_unit": "compute-opportunity tick, not milliseconds",
+    "synchronous_control": "Optimistic free barrier, not original DRAN PCG",
+    "loss_guarantee": "Configured bounded-delay contract",
+    "arm": "budget_hold",
+    "case": "d1",
+    "service_seconds": 1.3731042789295316,
+    "audit": {
+      "update_discrepancy": 2.220446049250313e-16,
+      "supported_updates": 5905,
+      "actual_error_covered": 5531,
+      "actual_error_coverage": 0.9366638441998306,
+      "fully_supported_ticks": 1333,
+      "certified_ticks": 1052,
+      "conditional_bound_violation": 0.0,
+      "objective_decrease_ticks": 2000
+    }
+  },
+  {
+    "mode": "error_budget",
+    "scenario": "outage",
+    "seed": 34,
+    "ticks_completed": 2000,
+    "relative_gap": 1.3084599306152992e-05,
+    "relative_residual": 7.528397560337176e-05,
+    "first_gap_1e6_tick": null,
+    "application_bytes": 3610240,
+    "hop_messages": 30778,
+    "dropped_packets": 2398,
+    "delivered_packets": 17562,
+    "obsolete_or_duplicate_packets": 5901,
+    "updates": 8000,
+    "global_reductions": 0,
+    "synchronous_barriers": 0,
+    "max_cache_age": 410,
+    "bound_violations": 0,
+    "steps": {
+      "1": [
+        0.014560244567405671,
+        1.0000000000000024
+      ],
+      "2": [
+        0.0013617543783190646,
+        1.0000000000000078
+      ],
+      "3": [
+        0.0013530210104348666,
+        0.1268283539105538
+      ],
+      "4": [
+        0.0008444585994682951,
+        0.9998607884390269
+      ]
+    },
+    "period_ticks": {
+      "1": 1,
+      "2": 1,
+      "3": 1,
+      "4": 1
+    },
+    "prediction": "response_linear",
+    "history_size": 8,
+    "model_setup_bytes": 0,
+    "model_statistics": {
+      "corrections": 0,
+      "innovation_sq": 0
+    },
+    "model_setup_contract": "Additional descriptors charged, setup delivery assumed; common row/chart setup excluded",
+    "forecast_degree_counts": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "response_statistics": {
+      "fits": 11661,
+      "validations": 11651,
+      "final_gains": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "validated_error": 0.00853510457311889,
+      "validated_hold_error": 4.8889742358390606e-05
+    },
+    "error_budget_statistics": {
+      "supported_steps": 5905,
+      "fallback_steps": 2095,
+      "zero_steps": 875,
+      "validated": 9428,
+      "unlabelled": 8309,
+      "expired": 0,
+      "scored_bounds": 8899,
+      "retrospective_violations": 967,
+      "max_pending": 409
+    },
+    "gradient_error_sq_sum": 3.894121292993832,
+    "held_gradient_error_sq_sum": 3.892881471661709,
+    "delay_bounds": {
+      "1:1": 0,
+      "1:2": 7,
+      "1:3": 12,
+      "1:4": 417,
+      "2:1": 7,
+      "2:2": 0,
+      "2:3": 7,
+      "2:4": 412,
+      "3:1": 12,
+      "3:2": 7,
+      "3:3": 0,
+      "3:4": 407,
+      "4:1": 417,
+      "4:2": 412,
+      "4:3": 407,
+      "4:4": 0
+    },
+    "finite": true,
+    "horizon_complete": true,
+    "initial_state_norm": 4.295470651782315,
+    "setup_bytes_included": false,
+    "simulated_time_unit": "compute-opportunity tick, not milliseconds",
+    "synchronous_control": "Optimistic free barrier, not original DRAN PCG",
+    "loss_guarantee": "Configured bounded-delay contract",
+    "arm": "budget_predict",
+    "case": "d1",
+    "service_seconds": 2.445552854798734,
+    "audit": {
+      "update_discrepancy": 2.220446049250313e-16,
+      "supported_updates": 5905,
+      "actual_error_covered": 5533,
+      "actual_error_coverage": 0.9370025402201524,
+      "fully_supported_ticks": 1333,
+      "certified_ticks": 1067,
+      "conditional_bound_violation": 0.0,
+      "objective_decrease_ticks": 1999
+    }
+  },
+  {
+    "mode": "error_budget",
+    "scenario": "outage",
+    "seed": 34,
+    "ticks_completed": 2000,
+    "relative_gap": 1.6009084149866842e-05,
+    "relative_residual": 9.838072061553051e-05,
+    "first_gap_1e6_tick": null,
+    "application_bytes": 6522320,
+    "hop_messages": 30778,
+    "dropped_packets": 2398,
+    "delivered_packets": 17562,
+    "obsolete_or_duplicate_packets": 5901,
+    "updates": 8000,
+    "global_reductions": 0,
+    "synchronous_barriers": 0,
+    "max_cache_age": 410,
+    "bound_violations": 0,
+    "steps": {
+      "1": [
+        0.014560244567405671,
+        1.0000000000000024
+      ],
+      "2": [
+        0.0013617543783190646,
+        1.0000000000000078
+      ],
+      "3": [
+        0.0013530210104348666,
+        0.1268283539105538
+      ],
+      "4": [
+        0.0008444585994682951,
+        0.9998607884390269
+      ]
+    },
+    "period_ticks": {
+      "1": 1,
+      "2": 1,
+      "3": 1,
+      "4": 1
+    },
+    "prediction": "model_response",
+    "history_size": 8,
+    "model_setup_bytes": 40512,
+    "model_statistics": {
+      "corrections": 11651,
+      "innovation_sq": 2.4964940188008886
+    },
+    "model_setup_contract": "Additional descriptors charged, setup delivery assumed; common row/chart setup excluded",
+    "forecast_degree_counts": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "response_statistics": {
+      "fits": 0,
+      "validations": 0,
+      "final_gains": [],
+      "validated_error": 0,
+      "validated_hold_error": 0
+    },
+    "error_budget_statistics": {
+      "supported_steps": 5905,
+      "fallback_steps": 2095,
+      "zero_steps": 2789,
+      "validated": 9428,
+      "unlabelled": 8309,
+      "expired": 0,
+      "scored_bounds": 8899,
+      "retrospective_violations": 883,
+      "max_pending": 409
+    },
+    "gradient_error_sq_sum": 3.9484676214829864,
+    "held_gradient_error_sq_sum": 3.9484547509772288,
+    "delay_bounds": {
+      "1:1": 0,
+      "1:2": 7,
+      "1:3": 12,
+      "1:4": 417,
+      "2:1": 7,
+      "2:2": 0,
+      "2:3": 7,
+      "2:4": 412,
+      "3:1": 12,
+      "3:2": 7,
+      "3:3": 0,
+      "3:4": 407,
+      "4:1": 417,
+      "4:2": 412,
+      "4:3": 407,
+      "4:4": 0
+    },
+    "finite": true,
+    "horizon_complete": true,
+    "initial_state_norm": 4.295470651782315,
+    "setup_bytes_included": false,
+    "simulated_time_unit": "compute-opportunity tick, not milliseconds",
+    "synchronous_control": "Optimistic free barrier, not original DRAN PCG",
+    "loss_guarantee": "Configured bounded-delay contract",
+    "arm": "model_response",
+    "case": "d1",
+    "service_seconds": 2.088294625747949,
+    "audit": {
+      "update_discrepancy": 2.220446049250313e-16,
+      "supported_updates": 5905,
+      "actual_error_covered": 5547,
+      "actual_error_coverage": 0.9393734123624048,
+      "fully_supported_ticks": 1333,
+      "certified_ticks": 1061,
+      "conditional_bound_violation": 0.0,
+      "objective_decrease_ticks": 2000
+    }
+  },
+  {
+    "mode": "error_budget",
+    "scenario": "outage",
+    "seed": 34,
+    "ticks_completed": 2000,
+    "relative_gap": 3.4909040182570305e-05,
+    "relative_residual": 0.003512653617343828,
+    "first_gap_1e6_tick": null,
+    "application_bytes": 6522320,
+    "hop_messages": 30778,
+    "dropped_packets": 2398,
+    "delivered_packets": 17562,
+    "obsolete_or_duplicate_packets": 5901,
+    "updates": 8000,
+    "global_reductions": 0,
+    "synchronous_barriers": 0,
+    "max_cache_age": 410,
+    "bound_violations": 0,
+    "steps": {
+      "1": [
+        0.014560244567405671,
+        1.0000000000000024
+      ],
+      "2": [
+        0.0013617543783190646,
+        1.0000000000000078
+      ],
+      "3": [
+        0.0013530210104348666,
+        0.1268283539105538
+      ],
+      "4": [
+        0.0008444585994682951,
+        0.9998607884390269
+      ]
+    },
+    "period_ticks": {
+      "1": 1,
+      "2": 1,
+      "3": 1,
+      "4": 1
+    },
+    "prediction": "model_frozen",
+    "history_size": 8,
+    "model_setup_bytes": 40512,
+    "model_statistics": {
+      "corrections": 0,
+      "innovation_sq": 9.398048359530211
+    },
+    "model_setup_contract": "Additional descriptors charged, setup delivery assumed; common row/chart setup excluded",
+    "forecast_degree_counts": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "response_statistics": {
+      "fits": 0,
+      "validations": 0,
+      "final_gains": [],
+      "validated_error": 0,
+      "validated_hold_error": 0
+    },
+    "error_budget_statistics": {
+      "supported_steps": 5905,
+      "fallback_steps": 2095,
+      "zero_steps": 4763,
+      "validated": 9428,
+      "unlabelled": 8309,
+      "expired": 0,
+      "scored_bounds": 8899,
+      "retrospective_violations": 1635,
+      "max_pending": 409
+    },
+    "gradient_error_sq_sum": 61.71912212938126,
+    "held_gradient_error_sq_sum": 12.99521050195634,
+    "delay_bounds": {
+      "1:1": 0,
+      "1:2": 7,
+      "1:3": 12,
+      "1:4": 417,
+      "2:1": 7,
+      "2:2": 0,
+      "2:3": 7,
+      "2:4": 412,
+      "3:1": 12,
+      "3:2": 7,
+      "3:3": 0,
+      "3:4": 407,
+      "4:1": 417,
+      "4:2": 412,
+      "4:3": 407,
+      "4:4": 0
+    },
+    "finite": true,
+    "horizon_complete": true,
+    "initial_state_norm": 4.295470651782315,
+    "setup_bytes_included": false,
+    "simulated_time_unit": "compute-opportunity tick, not milliseconds",
+    "synchronous_control": "Optimistic free barrier, not original DRAN PCG",
+    "loss_guarantee": "Configured bounded-delay contract",
+    "arm": "model_frozen",
+    "case": "d1",
+    "service_seconds": 2.002365688793361,
+    "audit": {
+      "update_discrepancy": 2.220446049250313e-16,
+      "supported_updates": 5905,
+      "actual_error_covered": 5323,
+      "actual_error_coverage": 0.9014394580863675,
+      "fully_supported_ticks": 1333,
+      "certified_ticks": 986,
+      "conditional_bound_violation": 0.0,
+      "objective_decrease_ticks": 1834
+    }
+  },
+  {
+    "mode": "directional",
+    "scenario": "delay",
+    "seed": 34,
+    "ticks_completed": 2000,
+    "relative_gap": 0.0011457959847964902,
+    "relative_residual": 0.0037918496840074053,
+    "first_gap_1e6_tick": null,
+    "application_bytes": 4872176,
+    "hop_messages": 47774,
+    "dropped_packets": 0,
+    "delivered_packets": 27612,
+    "obsolete_or_duplicate_packets": 14960,
+    "updates": 10000,
+    "global_reductions": 0,
+    "synchronous_barriers": 0,
+    "max_cache_age": 56,
+    "bound_violations": 0,
+    "steps": {
+      "1": [
+        0.014721447702350926,
+        0.1974619639215196
+      ],
+      "2": [
+        0.007554333647606342,
+        0.9999999999999993
+      ],
+      "3": [
+        0.04687249313887462,
+        0.06123518902831332
+      ],
+      "4": [
+        0.009571396950289147,
+        0.15482762294515248
+      ],
+      "5": [
+        0.009464611760125913,
+        1.0000000000000002
+      ]
+    },
+    "period_ticks": {
+      "1": 1,
+      "2": 1,
+      "3": 1,
+      "4": 1,
+      "5": 1
+    },
+    "prediction": "hold",
+    "history_size": 8,
+    "model_setup_bytes": 0,
+    "model_statistics": {
+      "corrections": 0,
+      "innovation_sq": 0
+    },
+    "model_setup_contract": "Additional descriptors charged, setup delivery assumed; common row/chart setup excluded",
+    "forecast_degree_counts": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "response_statistics": {
+      "fits": 0,
+      "validations": 0,
+      "final_gains": [],
+      "validated_error": 0,
+      "validated_hold_error": 0
+    },
+    "error_budget_statistics": {
+      "supported_steps": 0,
+      "fallback_steps": 0,
+      "zero_steps": 0,
+      "validated": 0,
+      "unlabelled": 0,
+      "expired": 0,
+      "scored_bounds": 0,
+      "retrospective_violations": 0,
+      "max_pending": 0
+    },
+    "gradient_error_sq_sum": 30.87480898875119,
+    "held_gradient_error_sq_sum": 30.87480898875119,
+    "delay_bounds": {
+      "1:1": 0,
+      "1:2": 22,
+      "1:3": 42,
+      "1:4": 62,
+      "1:5": 82,
+      "2:1": 22,
+      "2:2": 0,
+      "2:3": 22,
+      "2:4": 42,
+      "2:5": 62,
+      "3:1": 42,
+      "3:2": 22,
+      "3:3": 0,
+      "3:4": 22,
+      "3:5": 42,
+      "4:1": 62,
+      "4:2": 42,
+      "4:3": 22,
+      "4:4": 0,
+      "4:5": 22,
+      "5:1": 82,
+      "5:2": 62,
+      "5:3": 42,
+      "5:4": 22,
+      "5:5": 0
+    },
+    "finite": true,
+    "horizon_complete": true,
+    "initial_state_norm": 4.157415354247083,
+    "setup_bytes_included": false,
+    "simulated_time_unit": "compute-opportunity tick, not milliseconds",
+    "synchronous_control": "Optimistic free barrier, not original DRAN PCG",
+    "loss_guarantee": "Configured bounded-delay contract",
+    "arm": "baseline",
+    "case": "d4",
+    "service_seconds": 0.8649519626051188,
+    "audit": {
+      "update_discrepancy": 3.3306690738754696e-16,
+      "supported_updates": 0,
+      "actual_error_covered": 0,
+      "actual_error_coverage": null,
+      "fully_supported_ticks": 0,
+      "certified_ticks": 0,
+      "conditional_bound_violation": 0.0,
+      "objective_decrease_ticks": 2000
+    }
+  },
+  {
+    "mode": "error_budget",
+    "scenario": "delay",
+    "seed": 34,
+    "ticks_completed": 2000,
+    "relative_gap": 0.0006512890108515575,
+    "relative_residual": 0.002787461341582127,
+    "first_gap_1e6_tick": null,
+    "application_bytes": 4872176,
+    "hop_messages": 47774,
+    "dropped_packets": 0,
+    "delivered_packets": 27612,
+    "obsolete_or_duplicate_packets": 14960,
+    "updates": 10000,
+    "global_reductions": 0,
+    "synchronous_barriers": 0,
+    "max_cache_age": 56,
+    "bound_violations": 0,
+    "steps": {
+      "1": [
+        0.014721447702350926,
+        0.1974619639215196
+      ],
+      "2": [
+        0.007554333647606342,
+        0.9999999999999993
+      ],
+      "3": [
+        0.04687249313887462,
+        0.06123518902831332
+      ],
+      "4": [
+        0.009571396950289147,
+        0.15482762294515248
+      ],
+      "5": [
+        0.009464611760125913,
+        1.0000000000000002
+      ]
+    },
+    "period_ticks": {
+      "1": 1,
+      "2": 1,
+      "3": 1,
+      "4": 1,
+      "5": 1
+    },
+    "prediction": "hold",
+    "history_size": 8,
+    "model_setup_bytes": 0,
+    "model_statistics": {
+      "corrections": 0,
+      "innovation_sq": 0
+    },
+    "model_setup_contract": "Additional descriptors charged, setup delivery assumed; common row/chart setup excluded",
+    "forecast_degree_counts": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "response_statistics": {
+      "fits": 0,
+      "validations": 0,
+      "final_gains": [],
+      "validated_error": 0,
+      "validated_hold_error": 0
+    },
+    "error_budget_statistics": {
+      "supported_steps": 7996,
+      "fallback_steps": 2004,
+      "zero_steps": 4377,
+      "validated": 12652,
+      "unlabelled": 14993,
+      "expired": 0,
+      "scored_bounds": 11149,
+      "retrospective_violations": 1097,
+      "max_pending": 55
+    },
+    "gradient_error_sq_sum": 103.04242486791709,
+    "held_gradient_error_sq_sum": 103.04242486791709,
+    "delay_bounds": {
+      "1:1": 0,
+      "1:2": 22,
+      "1:3": 42,
+      "1:4": 62,
+      "1:5": 82,
+      "2:1": 22,
+      "2:2": 0,
+      "2:3": 22,
+      "2:4": 42,
+      "2:5": 62,
+      "3:1": 42,
+      "3:2": 22,
+      "3:3": 0,
+      "3:4": 22,
+      "3:5": 42,
+      "4:1": 62,
+      "4:2": 42,
+      "4:3": 22,
+      "4:4": 0,
+      "4:5": 22,
+      "5:1": 82,
+      "5:2": 62,
+      "5:3": 42,
+      "5:4": 22,
+      "5:5": 0
+    },
+    "finite": true,
+    "horizon_complete": true,
+    "initial_state_norm": 4.157415354247083,
+    "setup_bytes_included": false,
+    "simulated_time_unit": "compute-opportunity tick, not milliseconds",
+    "synchronous_control": "Optimistic free barrier, not original DRAN PCG",
+    "loss_guarantee": "Configured bounded-delay contract",
+    "arm": "budget_hold",
+    "case": "d4",
+    "service_seconds": 1.8130666511133313,
+    "audit": {
+      "update_discrepancy": 1.1102230246251565e-16,
+      "supported_updates": 7996,
+      "actual_error_covered": 7880,
+      "actual_error_coverage": 0.9854927463731866,
+      "fully_supported_ticks": 1126,
+      "certified_ticks": 1052,
+      "conditional_bound_violation": 0.0,
+      "objective_decrease_ticks": 1981
+    }
+  },
+  {
+    "mode": "error_budget",
+    "scenario": "delay",
+    "seed": 34,
+    "ticks_completed": 2000,
+    "relative_gap": 9.787207520674483e+20,
+    "relative_residual": 34512369970.87528,
+    "first_gap_1e6_tick": null,
+    "application_bytes": 4872176,
+    "hop_messages": 47774,
+    "dropped_packets": 0,
+    "delivered_packets": 27612,
+    "obsolete_or_duplicate_packets": 14960,
+    "updates": 10000,
+    "global_reductions": 0,
+    "synchronous_barriers": 0,
+    "max_cache_age": 56,
+    "bound_violations": 0,
+    "steps": {
+      "1": [
+        0.014721447702350926,
+        0.1974619639215196
+      ],
+      "2": [
+        0.007554333647606342,
+        0.9999999999999993
+      ],
+      "3": [
+        0.04687249313887462,
+        0.06123518902831332
+      ],
+      "4": [
+        0.009571396950289147,
+        0.15482762294515248
+      ],
+      "5": [
+        0.009464611760125913,
+        1.0000000000000002
+      ]
+    },
+    "period_ticks": {
+      "1": 1,
+      "2": 1,
+      "3": 1,
+      "4": 1,
+      "5": 1
+    },
+    "prediction": "response_linear",
+    "history_size": 8,
+    "model_setup_bytes": 0,
+    "model_statistics": {
+      "corrections": 0,
+      "innovation_sq": 0
+    },
+    "model_setup_contract": "Additional descriptors charged, setup delivery assumed; common row/chart setup excluded",
+    "forecast_degree_counts": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "response_statistics": {
+      "fits": 12652,
+      "validations": 12638,
+      "final_gains": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "validated_error": 2.2078626688282355e+20,
+      "validated_hold_error": 1.4670588267464799e+20
+    },
+    "error_budget_statistics": {
+      "supported_steps": 7996,
+      "fallback_steps": 2004,
+      "zero_steps": 5570,
+      "validated": 12652,
+      "unlabelled": 14993,
+      "expired": 0,
+      "scored_bounds": 11149,
+      "retrospective_violations": 5205,
+      "max_pending": 55
+    },
+    "gradient_error_sq_sum": 2.336032236249388e+24,
+    "held_gradient_error_sq_sum": 8.039996102398047e+23,
+    "delay_bounds": {
+      "1:1": 0,
+      "1:2": 22,
+      "1:3": 42,
+      "1:4": 62,
+      "1:5": 82,
+      "2:1": 22,
+      "2:2": 0,
+      "2:3": 22,
+      "2:4": 42,
+      "2:5": 62,
+      "3:1": 42,
+      "3:2": 22,
+      "3:3": 0,
+      "3:4": 22,
+      "3:5": 42,
+      "4:1": 62,
+      "4:2": 42,
+      "4:3": 22,
+      "4:4": 0,
+      "4:5": 22,
+      "5:1": 82,
+      "5:2": 62,
+      "5:3": 42,
+      "5:4": 22,
+      "5:5": 0
+    },
+    "finite": true,
+    "horizon_complete": true,
+    "initial_state_norm": 4.157415354247083,
+    "setup_bytes_included": false,
+    "simulated_time_unit": "compute-opportunity tick, not milliseconds",
+    "synchronous_control": "Optimistic free barrier, not original DRAN PCG",
+    "loss_guarantee": "Configured bounded-delay contract",
+    "arm": "budget_predict",
+    "case": "d4",
+    "service_seconds": 3.0258507314138114,
+    "audit": {
+      "update_discrepancy": 2.6102845909542225e-14,
+      "supported_updates": 7996,
+      "actual_error_covered": 3945,
+      "actual_error_coverage": 0.49337168584292146,
+      "fully_supported_ticks": 1126,
+      "certified_ticks": 99,
+      "conditional_bound_violation": 0.0,
+      "objective_decrease_ticks": 1223
+    }
+  },
+  {
+    "mode": "error_budget",
+    "scenario": "delay",
+    "seed": 34,
+    "ticks_completed": 2000,
+    "relative_gap": 0.00056248237254511,
+    "relative_residual": 0.0026582651031055826,
+    "first_gap_1e6_tick": null,
+    "application_bytes": 8637808,
+    "hop_messages": 47774,
+    "dropped_packets": 0,
+    "delivered_packets": 27612,
+    "obsolete_or_duplicate_packets": 14960,
+    "updates": 10000,
+    "global_reductions": 0,
+    "synchronous_barriers": 0,
+    "max_cache_age": 56,
+    "bound_violations": 0,
+    "steps": {
+      "1": [
+        0.014721447702350926,
+        0.1974619639215196
+      ],
+      "2": [
+        0.007554333647606342,
+        0.9999999999999993
+      ],
+      "3": [
+        0.04687249313887462,
+        0.06123518902831332
+      ],
+      "4": [
+        0.009571396950289147,
+        0.15482762294515248
+      ],
+      "5": [
+        0.009464611760125913,
+        1.0000000000000002
+      ]
+    },
+    "period_ticks": {
+      "1": 1,
+      "2": 1,
+      "3": 1,
+      "4": 1,
+      "5": 1
+    },
+    "prediction": "model_response",
+    "history_size": 8,
+    "model_setup_bytes": 40032,
+    "model_statistics": {
+      "corrections": 12638,
+      "innovation_sq": 10.264327895579976
+    },
+    "model_setup_contract": "Additional descriptors charged, setup delivery assumed; common row/chart setup excluded",
+    "forecast_degree_counts": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "response_statistics": {
+      "fits": 0,
+      "validations": 0,
+      "final_gains": [],
+      "validated_error": 0,
+      "validated_hold_error": 0
+    },
+    "error_budget_statistics": {
+      "supported_steps": 7996,
+      "fallback_steps": 2004,
+      "zero_steps": 6289,
+      "validated": 12652,
+      "unlabelled": 14993,
+      "expired": 0,
+      "scored_bounds": 11149,
+      "retrospective_violations": 1254,
+      "max_pending": 55
+    },
+    "gradient_error_sq_sum": 103.07710231532945,
+    "held_gradient_error_sq_sum": 103.09795016126901,
+    "delay_bounds": {
+      "1:1": 0,
+      "1:2": 22,
+      "1:3": 42,
+      "1:4": 62,
+      "1:5": 82,
+      "2:1": 22,
+      "2:2": 0,
+      "2:3": 22,
+      "2:4": 42,
+      "2:5": 62,
+      "3:1": 42,
+      "3:2": 22,
+      "3:3": 0,
+      "3:4": 22,
+      "3:5": 42,
+      "4:1": 62,
+      "4:2": 42,
+      "4:3": 22,
+      "4:4": 0,
+      "4:5": 22,
+      "5:1": 82,
+      "5:2": 62,
+      "5:3": 42,
+      "5:4": 22,
+      "5:5": 0
+    },
+    "finite": true,
+    "horizon_complete": true,
+    "initial_state_norm": 4.157415354247083,
+    "setup_bytes_included": false,
+    "simulated_time_unit": "compute-opportunity tick, not milliseconds",
+    "synchronous_control": "Optimistic free barrier, not original DRAN PCG",
+    "loss_guarantee": "Configured bounded-delay contract",
+    "arm": "model_response",
+    "case": "d4",
+    "service_seconds": 2.679016324225813,
+    "audit": {
+      "update_discrepancy": 1.1102230246251565e-16,
+      "supported_updates": 7996,
+      "actual_error_covered": 7761,
+      "actual_error_coverage": 0.9706103051525763,
+      "fully_supported_ticks": 1126,
+      "certified_ticks": 974,
+      "conditional_bound_violation": 0.0,
+      "objective_decrease_ticks": 1980
+    }
+  },
+  {
+    "mode": "error_budget",
+    "scenario": "delay",
+    "seed": 34,
+    "ticks_completed": 2000,
+    "relative_gap": 0.005274241517232431,
+    "relative_residual": 0.03599026256224277,
+    "first_gap_1e6_tick": null,
+    "application_bytes": 8637808,
+    "hop_messages": 47774,
+    "dropped_packets": 0,
+    "delivered_packets": 27612,
+    "obsolete_or_duplicate_packets": 14960,
+    "updates": 10000,
+    "global_reductions": 0,
+    "synchronous_barriers": 0,
+    "max_cache_age": 56,
+    "bound_violations": 0,
+    "steps": {
+      "1": [
+        0.014721447702350926,
+        0.1974619639215196
+      ],
+      "2": [
+        0.007554333647606342,
+        0.9999999999999993
+      ],
+      "3": [
+        0.04687249313887462,
+        0.06123518902831332
+      ],
+      "4": [
+        0.009571396950289147,
+        0.15482762294515248
+      ],
+      "5": [
+        0.009464611760125913,
+        1.0000000000000002
+      ]
+    },
+    "period_ticks": {
+      "1": 1,
+      "2": 1,
+      "3": 1,
+      "4": 1,
+      "5": 1
+    },
+    "prediction": "model_frozen",
+    "history_size": 8,
+    "model_setup_bytes": 40032,
+    "model_statistics": {
+      "corrections": 0,
+      "innovation_sq": 18.08856276906789
+    },
+    "model_setup_contract": "Additional descriptors charged, setup delivery assumed; common row/chart setup excluded",
+    "forecast_degree_counts": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "response_statistics": {
+      "fits": 0,
+      "validations": 0,
+      "final_gains": [],
+      "validated_error": 0,
+      "validated_hold_error": 0
+    },
+    "error_budget_statistics": {
+      "supported_steps": 7996,
+      "fallback_steps": 2004,
+      "zero_steps": 7281,
+      "validated": 12652,
+      "unlabelled": 14993,
+      "expired": 0,
+      "scored_bounds": 11149,
+      "retrospective_violations": 1519,
+      "max_pending": 55
+    },
+    "gradient_error_sq_sum": 359.57043488288593,
+    "held_gradient_error_sq_sum": 129.8679380024044,
+    "delay_bounds": {
+      "1:1": 0,
+      "1:2": 22,
+      "1:3": 42,
+      "1:4": 62,
+      "1:5": 82,
+      "2:1": 22,
+      "2:2": 0,
+      "2:3": 22,
+      "2:4": 42,
+      "2:5": 62,
+      "3:1": 42,
+      "3:2": 22,
+      "3:3": 0,
+      "3:4": 22,
+      "3:5": 42,
+      "4:1": 62,
+      "4:2": 42,
+      "4:3": 22,
+      "4:4": 0,
+      "4:5": 22,
+      "5:1": 82,
+      "5:2": 62,
+      "5:3": 42,
+      "5:4": 22,
+      "5:5": 0
+    },
+    "finite": true,
+    "horizon_complete": true,
+    "initial_state_norm": 4.157415354247083,
+    "setup_bytes_included": false,
+    "simulated_time_unit": "compute-opportunity tick, not milliseconds",
+    "synchronous_control": "Optimistic free barrier, not original DRAN PCG",
+    "loss_guarantee": "Configured bounded-delay contract",
+    "arm": "model_frozen",
+    "case": "d4",
+    "service_seconds": 2.614342817105353,
+    "audit": {
+      "update_discrepancy": 1.1102230246251565e-16,
+      "supported_updates": 7996,
+      "actual_error_covered": 7453,
+      "actual_error_coverage": 0.9320910455227613,
+      "fully_supported_ticks": 1126,
+      "certified_ticks": 818,
+      "conditional_bound_violation": 0.0,
+      "objective_decrease_ticks": 1803
+    }
+  },
+  {
+    "mode": "directional",
+    "scenario": "outage",
+    "seed": 34,
+    "ticks_completed": 2000,
+    "relative_gap": 0.002143637011947451,
+    "relative_residual": 0.014011915342679971,
+    "first_gap_1e6_tick": null,
+    "application_bytes": 4671248,
+    "hop_messages": 45962,
+    "dropped_packets": 3199,
+    "delivered_packets": 24737,
+    "obsolete_or_duplicate_packets": 8456,
+    "updates": 10000,
+    "global_reductions": 0,
+    "synchronous_barriers": 0,
+    "max_cache_age": 410,
+    "bound_violations": 0,
+    "steps": {
+      "1": [
+        0.0031816157487068075,
+        0.33450005674881456
+      ],
+      "2": [
+        0.0010823270217902642,
+        1.0000000000000024
+      ],
+      "3": [
+        0.003468674954916795,
+        0.006315310871231955
+      ],
+      "4": [
+        0.0010582186171729374,
+        0.3472998988299849
+      ],
+      "5": [
+        0.0014977241281519276,
+        0.9999999999999993
+      ]
+    },
+    "period_ticks": {
+      "1": 1,
+      "2": 1,
+      "3": 1,
+      "4": 1,
+      "5": 1
+    },
+    "prediction": "hold",
+    "history_size": 8,
+    "model_setup_bytes": 0,
+    "model_statistics": {
+      "corrections": 0,
+      "innovation_sq": 0
+    },
+    "model_setup_contract": "Additional descriptors charged, setup delivery assumed; common row/chart setup excluded",
+    "forecast_degree_counts": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "response_statistics": {
+      "fits": 0,
+      "validations": 0,
+      "final_gains": [],
+      "validated_error": 0,
+      "validated_hold_error": 0
+    },
+    "error_budget_statistics": {
+      "supported_steps": 0,
+      "fallback_steps": 0,
+      "zero_steps": 0,
+      "validated": 0,
+      "unlabelled": 0,
+      "expired": 0,
+      "scored_bounds": 0,
+      "retrospective_violations": 0,
+      "max_pending": 0
+    },
+    "gradient_error_sq_sum": 41.45037516562823,
+    "held_gradient_error_sq_sum": 41.45037516562823,
+    "delay_bounds": {
+      "1:1": 0,
+      "1:2": 7,
+      "1:3": 12,
+      "1:4": 417,
+      "1:5": 422,
+      "2:1": 7,
+      "2:2": 0,
+      "2:3": 7,
+      "2:4": 412,
+      "2:5": 417,
+      "3:1": 12,
+      "3:2": 7,
+      "3:3": 0,
+      "3:4": 407,
+      "3:5": 412,
+      "4:1": 417,
+      "4:2": 412,
+      "4:3": 407,
+      "4:4": 0,
+      "4:5": 7,
+      "5:1": 422,
+      "5:2": 417,
+      "5:3": 412,
+      "5:4": 7,
+      "5:5": 0
+    },
+    "finite": true,
+    "horizon_complete": true,
+    "initial_state_norm": 4.157415354247083,
+    "setup_bytes_included": false,
+    "simulated_time_unit": "compute-opportunity tick, not milliseconds",
+    "synchronous_control": "Optimistic free barrier, not original DRAN PCG",
+    "loss_guarantee": "Configured bounded-delay contract",
+    "arm": "baseline",
+    "case": "d4",
+    "service_seconds": 0.8662997339852154,
+    "audit": {
+      "update_discrepancy": 3.3306690738754696e-16,
+      "supported_updates": 0,
+      "actual_error_covered": 0,
+      "actual_error_coverage": null,
+      "fully_supported_ticks": 0,
+      "certified_ticks": 0,
+      "conditional_bound_violation": 0.0,
+      "objective_decrease_ticks": 2000
+    }
+  },
+  {
+    "mode": "error_budget",
+    "scenario": "outage",
+    "seed": 34,
+    "ticks_completed": 2000,
+    "relative_gap": 1.773801145771055e-05,
+    "relative_residual": 0.0003798706981521476,
+    "first_gap_1e6_tick": null,
+    "application_bytes": 4671248,
+    "hop_messages": 45962,
+    "dropped_packets": 3199,
+    "delivered_packets": 24737,
+    "obsolete_or_duplicate_packets": 8456,
+    "updates": 10000,
+    "global_reductions": 0,
+    "synchronous_barriers": 0,
+    "max_cache_age": 410,
+    "bound_violations": 0,
+    "steps": {
+      "1": [
+        0.0031816157487068075,
+        0.33450005674881456
+      ],
+      "2": [
+        0.0010823270217902642,
+        1.0000000000000024
+      ],
+      "3": [
+        0.003468674954916795,
+        0.006315310871231955
+      ],
+      "4": [
+        0.0010582186171729374,
+        0.3472998988299849
+      ],
+      "5": [
+        0.0014977241281519276,
+        0.9999999999999993
+      ]
+    },
+    "period_ticks": {
+      "1": 1,
+      "2": 1,
+      "3": 1,
+      "4": 1,
+      "5": 1
+    },
+    "prediction": "hold",
+    "history_size": 8,
+    "model_setup_bytes": 0,
+    "model_statistics": {
+      "corrections": 0,
+      "innovation_sq": 0
+    },
+    "model_setup_contract": "Additional descriptors charged, setup delivery assumed; common row/chart setup excluded",
+    "forecast_degree_counts": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "response_statistics": {
+      "fits": 0,
+      "validations": 0,
+      "final_gains": [],
+      "validated_error": 0,
+      "validated_hold_error": 0
+    },
+    "error_budget_statistics": {
+      "supported_steps": 7274,
+      "fallback_steps": 2726,
+      "zero_steps": 3481,
+      "validated": 13248,
+      "unlabelled": 11667,
+      "expired": 0,
+      "scored_bounds": 12460,
+      "retrospective_violations": 1040,
+      "max_pending": 409
+    },
+    "gradient_error_sq_sum": 11.793482757159776,
+    "held_gradient_error_sq_sum": 11.793482757159776,
+    "delay_bounds": {
+      "1:1": 0,
+      "1:2": 7,
+      "1:3": 12,
+      "1:4": 417,
+      "1:5": 422,
+      "2:1": 7,
+      "2:2": 0,
+      "2:3": 7,
+      "2:4": 412,
+      "2:5": 417,
+      "3:1": 12,
+      "3:2": 7,
+      "3:3": 0,
+      "3:4": 407,
+      "3:5": 412,
+      "4:1": 417,
+      "4:2": 412,
+      "4:3": 407,
+      "4:4": 0,
+      "4:5": 7,
+      "5:1": 422,
+      "5:2": 417,
+      "5:3": 412,
+      "5:4": 7,
+      "5:5": 0
+    },
+    "finite": true,
+    "horizon_complete": true,
+    "initial_state_norm": 4.157415354247083,
+    "setup_bytes_included": false,
+    "simulated_time_unit": "compute-opportunity tick, not milliseconds",
+    "synchronous_control": "Optimistic free barrier, not original DRAN PCG",
+    "loss_guarantee": "Configured bounded-delay contract",
+    "arm": "budget_hold",
+    "case": "d4",
+    "service_seconds": 1.838933722116053,
+    "audit": {
+      "update_discrepancy": 1.1102230246251565e-16,
+      "supported_updates": 7274,
+      "actual_error_covered": 7037,
+      "actual_error_coverage": 0.9674182018146824,
+      "fully_supported_ticks": 1249,
+      "certified_ticks": 1072,
+      "conditional_bound_violation": 0.0,
+      "objective_decrease_ticks": 1999
+    }
+  },
+  {
+    "mode": "error_budget",
+    "scenario": "outage",
+    "seed": 34,
+    "ticks_completed": 2000,
+    "relative_gap": 1.4105113563293103e-06,
+    "relative_residual": 0.00010139934950517782,
+    "first_gap_1e6_tick": null,
+    "application_bytes": 4671248,
+    "hop_messages": 45962,
+    "dropped_packets": 3199,
+    "delivered_packets": 24737,
+    "obsolete_or_duplicate_packets": 8456,
+    "updates": 10000,
+    "global_reductions": 0,
+    "synchronous_barriers": 0,
+    "max_cache_age": 410,
+    "bound_violations": 0,
+    "steps": {
+      "1": [
+        0.0031816157487068075,
+        0.33450005674881456
+      ],
+      "2": [
+        0.0010823270217902642,
+        1.0000000000000024
+      ],
+      "3": [
+        0.003468674954916795,
+        0.006315310871231955
+      ],
+      "4": [
+        0.0010582186171729374,
+        0.3472998988299849
+      ],
+      "5": [
+        0.0014977241281519276,
+        0.9999999999999993
+      ]
+    },
+    "period_ticks": {
+      "1": 1,
+      "2": 1,
+      "3": 1,
+      "4": 1,
+      "5": 1
+    },
+    "prediction": "response_linear",
+    "history_size": 8,
+    "model_setup_bytes": 0,
+    "model_statistics": {
+      "corrections": 0,
+      "innovation_sq": 0
+    },
+    "model_setup_contract": "Additional descriptors charged, setup delivery assumed; common row/chart setup excluded",
+    "forecast_degree_counts": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "response_statistics": {
+      "fits": 16281,
+      "validations": 16267,
+      "final_gains": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "validated_error": 0.4108777042323144,
+      "validated_hold_error": 0.0018570932425068497
+    },
+    "error_budget_statistics": {
+      "supported_steps": 7274,
+      "fallback_steps": 2726,
+      "zero_steps": 1679,
+      "validated": 13248,
+      "unlabelled": 11667,
+      "expired": 0,
+      "scored_bounds": 12460,
+      "retrospective_violations": 1193,
+      "max_pending": 409
+    },
+    "gradient_error_sq_sum": 11.785518740105932,
+    "held_gradient_error_sq_sum": 11.768547668394154,
+    "delay_bounds": {
+      "1:1": 0,
+      "1:2": 7,
+      "1:3": 12,
+      "1:4": 417,
+      "1:5": 422,
+      "2:1": 7,
+      "2:2": 0,
+      "2:3": 7,
+      "2:4": 412,
+      "2:5": 417,
+      "3:1": 12,
+      "3:2": 7,
+      "3:3": 0,
+      "3:4": 407,
+      "3:5": 412,
+      "4:1": 417,
+      "4:2": 412,
+      "4:3": 407,
+      "4:4": 0,
+      "4:5": 7,
+      "5:1": 422,
+      "5:2": 417,
+      "5:3": 412,
+      "5:4": 7,
+      "5:5": 0
+    },
+    "finite": true,
+    "horizon_complete": true,
+    "initial_state_norm": 4.157415354247083,
+    "setup_bytes_included": false,
+    "simulated_time_unit": "compute-opportunity tick, not milliseconds",
+    "synchronous_control": "Optimistic free barrier, not original DRAN PCG",
+    "loss_guarantee": "Configured bounded-delay contract",
+    "arm": "budget_predict",
+    "case": "d4",
+    "service_seconds": 3.324497228022665,
+    "audit": {
+      "update_discrepancy": 1.1102230246251565e-16,
+      "supported_updates": 7274,
+      "actual_error_covered": 7022,
+      "actual_error_coverage": 0.9653560626890294,
+      "fully_supported_ticks": 1249,
+      "certified_ticks": 1087,
+      "conditional_bound_violation": 0.0,
+      "objective_decrease_ticks": 1996
+    }
+  },
+  {
+    "mode": "error_budget",
+    "scenario": "outage",
+    "seed": 34,
+    "ticks_completed": 2000,
+    "relative_gap": 1.213338902294503e-05,
+    "relative_residual": 0.00030751850129776177,
+    "first_gap_1e6_tick": null,
+    "application_bytes": 8279440,
+    "hop_messages": 45962,
+    "dropped_packets": 3199,
+    "delivered_packets": 24737,
+    "obsolete_or_duplicate_packets": 8456,
+    "updates": 10000,
+    "global_reductions": 0,
+    "synchronous_barriers": 0,
+    "max_cache_age": 410,
+    "bound_violations": 0,
+    "steps": {
+      "1": [
+        0.0031816157487068075,
+        0.33450005674881456
+      ],
+      "2": [
+        0.0010823270217902642,
+        1.0000000000000024
+      ],
+      "3": [
+        0.003468674954916795,
+        0.006315310871231955
+      ],
+      "4": [
+        0.0010582186171729374,
+        0.3472998988299849
+      ],
+      "5": [
+        0.0014977241281519276,
+        0.9999999999999993
+      ]
+    },
+    "period_ticks": {
+      "1": 1,
+      "2": 1,
+      "3": 1,
+      "4": 1,
+      "5": 1
+    },
+    "prediction": "model_response",
+    "history_size": 8,
+    "model_setup_bytes": 40032,
+    "model_statistics": {
+      "corrections": 16267,
+      "innovation_sq": 8.088453167203896
+    },
+    "model_setup_contract": "Additional descriptors charged, setup delivery assumed; common row/chart setup excluded",
+    "forecast_degree_counts": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "response_statistics": {
+      "fits": 0,
+      "validations": 0,
+      "final_gains": [],
+      "validated_error": 0,
+      "validated_hold_error": 0
+    },
+    "error_budget_statistics": {
+      "supported_steps": 7274,
+      "fallback_steps": 2726,
+      "zero_steps": 3317,
+      "validated": 13248,
+      "unlabelled": 11667,
+      "expired": 0,
+      "scored_bounds": 12460,
+      "retrospective_violations": 1071,
+      "max_pending": 409
+    },
+    "gradient_error_sq_sum": 11.80499022139873,
+    "held_gradient_error_sq_sum": 11.804143176893357,
+    "delay_bounds": {
+      "1:1": 0,
+      "1:2": 7,
+      "1:3": 12,
+      "1:4": 417,
+      "1:5": 422,
+      "2:1": 7,
+      "2:2": 0,
+      "2:3": 7,
+      "2:4": 412,
+      "2:5": 417,
+      "3:1": 12,
+      "3:2": 7,
+      "3:3": 0,
+      "3:4": 407,
+      "3:5": 412,
+      "4:1": 417,
+      "4:2": 412,
+      "4:3": 407,
+      "4:4": 0,
+      "4:5": 7,
+      "5:1": 422,
+      "5:2": 417,
+      "5:3": 412,
+      "5:4": 7,
+      "5:5": 0
+    },
+    "finite": true,
+    "horizon_complete": true,
+    "initial_state_norm": 4.157415354247083,
+    "setup_bytes_included": false,
+    "simulated_time_unit": "compute-opportunity tick, not milliseconds",
+    "synchronous_control": "Optimistic free barrier, not original DRAN PCG",
+    "loss_guarantee": "Configured bounded-delay contract",
+    "arm": "model_response",
+    "case": "d4",
+    "service_seconds": 2.845829859841615,
+    "audit": {
+      "update_discrepancy": 1.1102230246251565e-16,
+      "supported_updates": 7274,
+      "actual_error_covered": 7029,
+      "actual_error_coverage": 0.9663183942810009,
+      "fully_supported_ticks": 1249,
+      "certified_ticks": 1073,
+      "conditional_bound_violation": 0.0,
+      "objective_decrease_ticks": 1998
+    }
+  },
+  {
+    "mode": "error_budget",
+    "scenario": "outage",
+    "seed": 34,
+    "ticks_completed": 2000,
+    "relative_gap": 0.003259450460134431,
+    "relative_residual": 0.019687636158655347,
+    "first_gap_1e6_tick": null,
+    "application_bytes": 8279440,
+    "hop_messages": 45962,
+    "dropped_packets": 3199,
+    "delivered_packets": 24737,
+    "obsolete_or_duplicate_packets": 8456,
+    "updates": 10000,
+    "global_reductions": 0,
+    "synchronous_barriers": 0,
+    "max_cache_age": 410,
+    "bound_violations": 0,
+    "steps": {
+      "1": [
+        0.0031816157487068075,
+        0.33450005674881456
+      ],
+      "2": [
+        0.0010823270217902642,
+        1.0000000000000024
+      ],
+      "3": [
+        0.003468674954916795,
+        0.006315310871231955
+      ],
+      "4": [
+        0.0010582186171729374,
+        0.3472998988299849
+      ],
+      "5": [
+        0.0014977241281519276,
+        0.9999999999999993
+      ]
+    },
+    "period_ticks": {
+      "1": 1,
+      "2": 1,
+      "3": 1,
+      "4": 1,
+      "5": 1
+    },
+    "prediction": "model_frozen",
+    "history_size": 8,
+    "model_setup_bytes": 40032,
+    "model_statistics": {
+      "corrections": 0,
+      "innovation_sq": 15.292726181881148
+    },
+    "model_setup_contract": "Additional descriptors charged, setup delivery assumed; common row/chart setup excluded",
+    "forecast_degree_counts": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "response_statistics": {
+      "fits": 0,
+      "validations": 0,
+      "final_gains": [],
+      "validated_error": 0,
+      "validated_hold_error": 0
+    },
+    "error_budget_statistics": {
+      "supported_steps": 7274,
+      "fallback_steps": 2726,
+      "zero_steps": 5798,
+      "validated": 13248,
+      "unlabelled": 11667,
+      "expired": 0,
+      "scored_bounds": 12460,
+      "retrospective_violations": 2139,
+      "max_pending": 409
+    },
+    "gradient_error_sq_sum": 138.4959456745366,
+    "held_gradient_error_sq_sum": 21.02797921851077,
+    "delay_bounds": {
+      "1:1": 0,
+      "1:2": 7,
+      "1:3": 12,
+      "1:4": 417,
+      "1:5": 422,
+      "2:1": 7,
+      "2:2": 0,
+      "2:3": 7,
+      "2:4": 412,
+      "2:5": 417,
+      "3:1": 12,
+      "3:2": 7,
+      "3:3": 0,
+      "3:4": 407,
+      "3:5": 412,
+      "4:1": 417,
+      "4:2": 412,
+      "4:3": 407,
+      "4:4": 0,
+      "4:5": 7,
+      "5:1": 422,
+      "5:2": 417,
+      "5:3": 412,
+      "5:4": 7,
+      "5:5": 0
+    },
+    "finite": true,
+    "horizon_complete": true,
+    "initial_state_norm": 4.157415354247083,
+    "setup_bytes_included": false,
+    "simulated_time_unit": "compute-opportunity tick, not milliseconds",
+    "synchronous_control": "Optimistic free barrier, not original DRAN PCG",
+    "loss_guarantee": "Configured bounded-delay contract",
+    "arm": "model_frozen",
+    "case": "d4",
+    "service_seconds": 2.7172762067057192,
+    "audit": {
+      "update_discrepancy": 1.1102230246251565e-16,
+      "supported_updates": 7274,
+      "actual_error_covered": 6662,
+      "actual_error_coverage": 0.9158647236733571,
+      "fully_supported_ticks": 1249,
+      "certified_ticks": 911,
+      "conditional_bound_violation": 0.0,
+      "objective_decrease_ticks": 1795
+    }
+  },
+  {
+    "mode": "directional",
+    "scenario": "delay",
+    "seed": 34,
+    "ticks_completed": 2000,
+    "relative_gap": 3.60190525053186e-05,
+    "relative_residual": 0.0018466811888819936,
+    "first_gap_1e6_tick": null,
+    "application_bytes": 544000,
+    "hop_messages": 4000,
+    "dropped_packets": 0,
+    "delivered_packets": 3969,
+    "obsolete_or_duplicate_packets": 2029,
+    "updates": 4000,
+    "global_reductions": 0,
+    "synchronous_barriers": 0,
+    "max_cache_age": 20,
+    "bound_violations": 0,
+    "steps": {
+      "0": [
+        0.024128018146583875,
+        0.9992539677349562
+      ],
+      "1": [
+        0.024128018146583836,
+        0.9992539677349538
+      ]
+    },
+    "period_ticks": {
+      "0": 1,
+      "1": 1
+    },
+    "prediction": "hold",
+    "history_size": 8,
+    "model_setup_bytes": 0,
+    "model_statistics": {
+      "corrections": 0,
+      "innovation_sq": 0
+    },
+    "model_setup_contract": "Additional descriptors charged, setup delivery assumed; common row/chart setup excluded",
+    "forecast_degree_counts": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "response_statistics": {
+      "fits": 0,
+      "validations": 0,
+      "final_gains": [],
+      "validated_error": 0,
+      "validated_hold_error": 0
+    },
+    "error_budget_statistics": {
+      "supported_steps": 0,
+      "fallback_steps": 0,
+      "zero_steps": 0,
+      "validated": 0,
+      "unlabelled": 0,
+      "expired": 0,
+      "scored_bounds": 0,
+      "retrospective_violations": 0,
+      "max_pending": 0
+    },
+    "gradient_error_sq_sum": 5.27792798648203,
+    "held_gradient_error_sq_sum": 5.27792798648203,
+    "delay_bounds": {
+      "0:0": 0,
+      "0:1": 22,
+      "1:0": 22,
+      "1:1": 0
+    },
+    "finite": true,
+    "horizon_complete": true,
+    "initial_state_norm": 3.540248401760188,
+    "setup_bytes_included": false,
+    "simulated_time_unit": "compute-opportunity tick, not milliseconds",
+    "synchronous_control": "Optimistic free barrier, not original DRAN PCG",
+    "loss_guarantee": "Configured bounded-delay contract",
+    "arm": "baseline",
+    "case": "se3_31",
+    "service_seconds": 0.24833165807649493,
+    "audit": {
+      "update_discrepancy": 1.8561541192951836e-16,
+      "supported_updates": 0,
+      "actual_error_covered": 0,
+      "actual_error_coverage": null,
+      "fully_supported_ticks": 0,
+      "certified_ticks": 0,
+      "conditional_bound_violation": 0.0,
+      "objective_decrease_ticks": 2000
+    }
+  },
+  {
+    "mode": "error_budget",
+    "scenario": "delay",
+    "seed": 34,
+    "ticks_completed": 2000,
+    "relative_gap": 5.56810430432896e-07,
+    "relative_residual": 0.00023702612235090013,
+    "first_gap_1e6_tick": 1908,
+    "application_bytes": 544000,
+    "hop_messages": 4000,
+    "dropped_packets": 0,
+    "delivered_packets": 3969,
+    "obsolete_or_duplicate_packets": 2029,
+    "updates": 4000,
+    "global_reductions": 0,
+    "synchronous_barriers": 0,
+    "max_cache_age": 20,
+    "bound_violations": 0,
+    "steps": {
+      "0": [
+        0.024128018146583875,
+        0.9992539677349562
+      ],
+      "1": [
+        0.024128018146583836,
+        0.9992539677349538
+      ]
+    },
+    "period_ticks": {
+      "0": 1,
+      "1": 1
+    },
+    "prediction": "hold",
+    "history_size": 8,
+    "model_setup_bytes": 0,
+    "model_statistics": {
+      "corrections": 0,
+      "innovation_sq": 0
+    },
+    "model_setup_contract": "Additional descriptors charged, setup delivery assumed; common row/chart setup excluded",
+    "forecast_degree_counts": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "response_statistics": {
+      "fits": 0,
+      "validations": 0,
+      "final_gains": [],
+      "validated_error": 0,
+      "validated_hold_error": 0
+    },
+    "error_budget_statistics": {
+      "supported_steps": 3697,
+      "fallback_steps": 303,
+      "zero_steps": 1844,
+      "validated": 1940,
+      "unlabelled": 2029,
+      "expired": 0,
+      "scored_bounds": 1795,
+      "retrospective_violations": 62,
+      "max_pending": 19
+    },
+    "gradient_error_sq_sum": 18.598748894299888,
+    "held_gradient_error_sq_sum": 18.598748894299888,
+    "delay_bounds": {
+      "0:0": 0,
+      "0:1": 22,
+      "1:0": 22,
+      "1:1": 0
+    },
+    "finite": true,
+    "horizon_complete": true,
+    "initial_state_norm": 3.540248401760188,
+    "setup_bytes_included": false,
+    "simulated_time_unit": "compute-opportunity tick, not milliseconds",
+    "synchronous_control": "Optimistic free barrier, not original DRAN PCG",
+    "loss_guarantee": "Configured bounded-delay contract",
+    "arm": "budget_hold",
+    "case": "se3_31",
+    "service_seconds": 0.43454066198319197,
+    "audit": {
+      "update_discrepancy": 1.1492543028346347e-16,
+      "supported_updates": 3697,
+      "actual_error_covered": 3584,
+      "actual_error_coverage": 0.9694346767649445,
+      "fully_supported_ticks": 1789,
+      "certified_ticks": 1681,
+      "conditional_bound_violation": 0.0,
+      "objective_decrease_ticks": 1985
+    }
+  },
+  {
+    "mode": "error_budget",
+    "scenario": "delay",
+    "seed": 34,
+    "ticks_completed": 2000,
+    "relative_gap": 1.333366967081202e-14,
+    "relative_residual": 1.419492475123838e-07,
+    "first_gap_1e6_tick": 695,
+    "application_bytes": 544000,
+    "hop_messages": 4000,
+    "dropped_packets": 0,
+    "delivered_packets": 3969,
+    "obsolete_or_duplicate_packets": 2029,
+    "updates": 4000,
+    "global_reductions": 0,
+    "synchronous_barriers": 0,
+    "max_cache_age": 20,
+    "bound_violations": 0,
+    "steps": {
+      "0": [
+        0.024128018146583875,
+        0.9992539677349562
+      ],
+      "1": [
+        0.024128018146583836,
+        0.9992539677349538
+      ]
+    },
+    "period_ticks": {
+      "0": 1,
+      "1": 1
+    },
+    "prediction": "response_linear",
+    "history_size": 8,
+    "model_setup_bytes": 0,
+    "model_statistics": {
+      "corrections": 0,
+      "innovation_sq": 0
+    },
+    "model_setup_contract": "Additional descriptors charged, setup delivery assumed; common row/chart setup excluded",
+    "forecast_degree_counts": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "response_statistics": {
+      "fits": 1940,
+      "validations": 1938,
+      "final_gains": [
+        1.0,
+        1.0
+      ],
+      "validated_error": 0.0730869532218691,
+      "validated_hold_error": 0.005684850032516392
+    },
+    "error_budget_statistics": {
+      "supported_steps": 3697,
+      "fallback_steps": 303,
+      "zero_steps": 3118,
+      "validated": 1940,
+      "unlabelled": 2029,
+      "expired": 0,
+      "scored_bounds": 1795,
+      "retrospective_violations": 296,
+      "max_pending": 19
+    },
+    "gradient_error_sq_sum": 24.193848205548008,
+    "held_gradient_error_sq_sum": 23.51969684232727,
+    "delay_bounds": {
+      "0:0": 0,
+      "0:1": 22,
+      "1:0": 22,
+      "1:1": 0
+    },
+    "finite": true,
+    "horizon_complete": true,
+    "initial_state_norm": 3.540248401760188,
+    "setup_bytes_included": false,
+    "simulated_time_unit": "compute-opportunity tick, not milliseconds",
+    "synchronous_control": "Optimistic free barrier, not original DRAN PCG",
+    "loss_guarantee": "Configured bounded-delay contract",
+    "arm": "budget_predict",
+    "case": "se3_31",
+    "service_seconds": 0.618948379997164,
+    "audit": {
+      "update_discrepancy": 1.1492543028346347e-16,
+      "supported_updates": 3697,
+      "actual_error_covered": 3075,
+      "actual_error_coverage": 0.8317554774141196,
+      "fully_supported_ticks": 1789,
+      "certified_ticks": 1303,
+      "conditional_bound_violation": 0.0,
+      "objective_decrease_ticks": 1846
+    }
+  },
+  {
+    "mode": "error_budget",
+    "scenario": "delay",
+    "seed": 34,
+    "ticks_completed": 2000,
+    "relative_gap": 4.685312260184979e-07,
+    "relative_residual": 0.00022071936341779052,
+    "first_gap_1e6_tick": 1900,
+    "application_bytes": 999008,
+    "hop_messages": 4000,
+    "dropped_packets": 0,
+    "delivered_packets": 3969,
+    "obsolete_or_duplicate_packets": 2029,
+    "updates": 4000,
+    "global_reductions": 0,
+    "synchronous_barriers": 0,
+    "max_cache_age": 20,
+    "bound_violations": 0,
+    "steps": {
+      "0": [
+        0.024128018146583875,
+        0.9992539677349562
+      ],
+      "1": [
+        0.024128018146583836,
+        0.9992539677349538
+      ]
+    },
+    "period_ticks": {
+      "0": 1,
+      "1": 1
+    },
+    "prediction": "model_response",
+    "history_size": 8,
+    "model_setup_bytes": 7008,
+    "model_statistics": {
+      "corrections": 1938,
+      "innovation_sq": 1.0307894287874355
+    },
+    "model_setup_contract": "Additional descriptors charged, setup delivery assumed; common row/chart setup excluded",
+    "forecast_degree_counts": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "response_statistics": {
+      "fits": 0,
+      "validations": 0,
+      "final_gains": [],
+      "validated_error": 0,
+      "validated_hold_error": 0
+    },
+    "error_budget_statistics": {
+      "supported_steps": 3697,
+      "fallback_steps": 303,
+      "zero_steps": 2870,
+      "validated": 1940,
+      "unlabelled": 2029,
+      "expired": 0,
+      "scored_bounds": 1795,
+      "retrospective_violations": 93,
+      "max_pending": 19
+    },
+    "gradient_error_sq_sum": 19.277729298892368,
+    "held_gradient_error_sq_sum": 19.529866840079254,
+    "delay_bounds": {
+      "0:0": 0,
+      "0:1": 22,
+      "1:0": 22,
+      "1:1": 0
+    },
+    "finite": true,
+    "horizon_complete": true,
+    "initial_state_norm": 3.540248401760188,
+    "setup_bytes_included": false,
+    "simulated_time_unit": "compute-opportunity tick, not milliseconds",
+    "synchronous_control": "Optimistic free barrier, not original DRAN PCG",
+    "loss_guarantee": "Configured bounded-delay contract",
+    "arm": "model_response",
+    "case": "se3_31",
+    "service_seconds": 0.5612019449472427,
+    "audit": {
+      "update_discrepancy": 1.1492543028346347e-16,
+      "supported_updates": 3697,
+      "actual_error_covered": 3521,
+      "actual_error_coverage": 0.9523938328374357,
+      "fully_supported_ticks": 1789,
+      "certified_ticks": 1624,
+      "conditional_bound_violation": 0.0,
+      "objective_decrease_ticks": 1984
+    }
+  },
+  {
+    "mode": "error_budget",
+    "scenario": "delay",
+    "seed": 34,
+    "ticks_completed": 2000,
+    "relative_gap": 0.1813348732586136,
+    "relative_residual": 0.4106526050681205,
+    "first_gap_1e6_tick": null,
+    "application_bytes": 999008,
+    "hop_messages": 4000,
+    "dropped_packets": 0,
+    "delivered_packets": 3969,
+    "obsolete_or_duplicate_packets": 2029,
+    "updates": 4000,
+    "global_reductions": 0,
+    "synchronous_barriers": 0,
+    "max_cache_age": 20,
+    "bound_violations": 0,
+    "steps": {
+      "0": [
+        0.024128018146583875,
+        0.9992539677349562
+      ],
+      "1": [
+        0.024128018146583836,
+        0.9992539677349538
+      ]
+    },
+    "period_ticks": {
+      "0": 1,
+      "1": 1
+    },
+    "prediction": "model_frozen",
+    "history_size": 8,
+    "model_setup_bytes": 7008,
+    "model_statistics": {
+      "corrections": 0,
+      "innovation_sq": 6.661954083998392
+    },
+    "model_setup_contract": "Additional descriptors charged, setup delivery assumed; common row/chart setup excluded",
+    "forecast_degree_counts": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "response_statistics": {
+      "fits": 0,
+      "validations": 0,
+      "final_gains": [],
+      "validated_error": 0,
+      "validated_hold_error": 0
+    },
+    "error_budget_statistics": {
+      "supported_steps": 3697,
+      "fallback_steps": 303,
+      "zero_steps": 2985,
+      "validated": 1940,
+      "unlabelled": 2029,
+      "expired": 0,
+      "scored_bounds": 1795,
+      "retrospective_violations": 286,
+      "max_pending": 19
+    },
+    "gradient_error_sq_sum": 357.3098420794598,
+    "held_gradient_error_sq_sum": 80.68611049498017,
+    "delay_bounds": {
+      "0:0": 0,
+      "0:1": 22,
+      "1:0": 22,
+      "1:1": 0
+    },
+    "finite": true,
+    "horizon_complete": true,
+    "initial_state_norm": 3.540248401760188,
+    "setup_bytes_included": false,
+    "simulated_time_unit": "compute-opportunity tick, not milliseconds",
+    "synchronous_control": "Optimistic free barrier, not original DRAN PCG",
+    "loss_guarantee": "Configured bounded-delay contract",
+    "arm": "model_frozen",
+    "case": "se3_31",
+    "service_seconds": 0.5708178598433733,
+    "audit": {
+      "update_discrepancy": 1.1492543028346347e-16,
+      "supported_updates": 3697,
+      "actual_error_covered": 3100,
+      "actual_error_coverage": 0.8385177170678929,
+      "fully_supported_ticks": 1789,
+      "certified_ticks": 1301,
+      "conditional_bound_violation": 0.0,
+      "objective_decrease_ticks": 1796
+    }
+  },
+  {
+    "mode": "directional",
+    "scenario": "outage",
+    "seed": 34,
+    "ticks_completed": 2000,
+    "relative_gap": 0.09093439543702352,
+    "relative_residual": 0.09717293330967176,
+    "first_gap_1e6_tick": null,
+    "application_bytes": 544000,
+    "hop_messages": 4000,
+    "dropped_packets": 800,
+    "delivered_packets": 3195,
+    "obsolete_or_duplicate_packets": 955,
+    "updates": 4000,
+    "global_reductions": 0,
+    "synchronous_barriers": 0,
+    "max_cache_age": 403,
+    "bound_violations": 0,
+    "steps": {
+      "0": [
+        0.0013632993552326743,
+        0.9866588326398686
+      ],
+      "1": [
+        0.0013632993552326039,
+        0.9866588326398551
+      ]
+    },
+    "period_ticks": {
+      "0": 1,
+      "1": 1
+    },
+    "prediction": "hold",
+    "history_size": 8,
+    "model_setup_bytes": 0,
+    "model_statistics": {
+      "corrections": 0,
+      "innovation_sq": 0
+    },
+    "model_setup_contract": "Additional descriptors charged, setup delivery assumed; common row/chart setup excluded",
+    "forecast_degree_counts": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "response_statistics": {
+      "fits": 0,
+      "validations": 0,
+      "final_gains": [],
+      "validated_error": 0,
+      "validated_hold_error": 0
+    },
+    "error_budget_statistics": {
+      "supported_steps": 0,
+      "fallback_steps": 0,
+      "zero_steps": 0,
+      "validated": 0,
+      "unlabelled": 0,
+      "expired": 0,
+      "scored_bounds": 0,
+      "retrospective_violations": 0,
+      "max_pending": 0
+    },
+    "gradient_error_sq_sum": 29.78750907312288,
+    "held_gradient_error_sq_sum": 29.78750907312288,
+    "delay_bounds": {
+      "0:0": 0,
+      "0:1": 407,
+      "1:0": 407,
+      "1:1": 0
+    },
+    "finite": true,
+    "horizon_complete": true,
+    "initial_state_norm": 3.540248401760188,
+    "setup_bytes_included": false,
+    "simulated_time_unit": "compute-opportunity tick, not milliseconds",
+    "synchronous_control": "Optimistic free barrier, not original DRAN PCG",
+    "loss_guarantee": "Configured bounded-delay contract",
+    "arm": "baseline",
+    "case": "se3_31",
+    "service_seconds": 0.2444734452292323,
+    "audit": {
+      "update_discrepancy": 2.572811755308102e-16,
+      "supported_updates": 0,
+      "actual_error_covered": 0,
+      "actual_error_coverage": null,
+      "fully_supported_ticks": 0,
+      "certified_ticks": 0,
+      "conditional_bound_violation": 0.0,
+      "objective_decrease_ticks": 2000
+    }
+  },
+  {
+    "mode": "error_budget",
+    "scenario": "outage",
+    "seed": 34,
+    "ticks_completed": 2000,
+    "relative_gap": 6.517116049360433e-23,
+    "relative_residual": 2.4481782949892e-12,
+    "first_gap_1e6_tick": 766,
+    "application_bytes": 544000,
+    "hop_messages": 4000,
+    "dropped_packets": 800,
+    "delivered_packets": 3195,
+    "obsolete_or_duplicate_packets": 955,
+    "updates": 4000,
+    "global_reductions": 0,
+    "synchronous_barriers": 0,
+    "max_cache_age": 403,
+    "bound_violations": 0,
+    "steps": {
+      "0": [
+        0.0013632993552326743,
+        0.9866588326398686
+      ],
+      "1": [
+        0.0013632993552326039,
+        0.9866588326398551
+      ]
+    },
+    "period_ticks": {
+      "0": 1,
+      "1": 1
+    },
+    "prediction": "hold",
+    "history_size": 8,
+    "model_setup_bytes": 0,
+    "model_statistics": {
+      "corrections": 0,
+      "innovation_sq": 0
+    },
+    "model_setup_contract": "Additional descriptors charged, setup delivery assumed; common row/chart setup excluded",
+    "forecast_degree_counts": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "response_statistics": {
+      "fits": 0,
+      "validations": 0,
+      "final_gains": [],
+      "validated_error": 0,
+      "validated_hold_error": 0
+    },
+    "error_budget_statistics": {
+      "supported_steps": 3087,
+      "fallback_steps": 913,
+      "zero_steps": 1750,
+      "validated": 1610,
+      "unlabelled": 1758,
+      "expired": 0,
+      "scored_bounds": 1540,
+      "retrospective_violations": 66,
+      "max_pending": 402
+    },
+    "gradient_error_sq_sum": 1.5517562973178736,
+    "held_gradient_error_sq_sum": 1.5517562973178736,
+    "delay_bounds": {
+      "0:0": 0,
+      "0:1": 407,
+      "1:0": 407,
+      "1:1": 0
+    },
+    "finite": true,
+    "horizon_complete": true,
+    "initial_state_norm": 3.540248401760188,
+    "setup_bytes_included": false,
+    "simulated_time_unit": "compute-opportunity tick, not milliseconds",
+    "synchronous_control": "Optimistic free barrier, not original DRAN PCG",
+    "loss_guarantee": "Configured bounded-delay contract",
+    "arm": "budget_hold",
+    "case": "se3_31",
+    "service_seconds": 0.4166787685826421,
+    "audit": {
+      "update_discrepancy": 1.1102230246251565e-16,
+      "supported_updates": 3087,
+      "actual_error_covered": 2977,
+      "actual_error_coverage": 0.9643666990605766,
+      "fully_supported_ticks": 1509,
+      "certified_ticks": 1401,
+      "conditional_bound_violation": 0.0,
+      "objective_decrease_ticks": 2000
+    }
+  },
+  {
+    "mode": "error_budget",
+    "scenario": "outage",
+    "seed": 34,
+    "ticks_completed": 2000,
+    "relative_gap": 1.962012461249637e-28,
+    "relative_residual": 4.242278073499651e-15,
+    "first_gap_1e6_tick": 705,
+    "application_bytes": 544000,
+    "hop_messages": 4000,
+    "dropped_packets": 800,
+    "delivered_packets": 3195,
+    "obsolete_or_duplicate_packets": 955,
+    "updates": 4000,
+    "global_reductions": 0,
+    "synchronous_barriers": 0,
+    "max_cache_age": 403,
+    "bound_violations": 0,
+    "steps": {
+      "0": [
+        0.0013632993552326743,
+        0.9866588326398686
+      ],
+      "1": [
+        0.0013632993552326039,
+        0.9866588326398551
+      ]
+    },
+    "period_ticks": {
+      "0": 1,
+      "1": 1
+    },
+    "prediction": "response_linear",
+    "history_size": 8,
+    "model_setup_bytes": 0,
+    "model_statistics": {
+      "corrections": 0,
+      "innovation_sq": 0
+    },
+    "model_setup_contract": "Additional descriptors charged, setup delivery assumed; common row/chart setup excluded",
+    "forecast_degree_counts": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "response_statistics": {
+      "fits": 2240,
+      "validations": 2238,
+      "final_gains": [
+        1.0,
+        1.0
+      ],
+      "validated_error": 0.0036146158926632825,
+      "validated_hold_error": 0.00036496664992160925
+    },
+    "error_budget_statistics": {
+      "supported_steps": 3087,
+      "fallback_steps": 913,
+      "zero_steps": 1330,
+      "validated": 1610,
+      "unlabelled": 1758,
+      "expired": 0,
+      "scored_bounds": 1540,
+      "retrospective_violations": 36,
+      "max_pending": 402
+    },
+    "gradient_error_sq_sum": 1.5336333338904993,
+    "held_gradient_error_sq_sum": 1.5610291866957717,
+    "delay_bounds": {
+      "0:0": 0,
+      "0:1": 407,
+      "1:0": 407,
+      "1:1": 0
+    },
+    "finite": true,
+    "horizon_complete": true,
+    "initial_state_norm": 3.540248401760188,
+    "setup_bytes_included": false,
+    "simulated_time_unit": "compute-opportunity tick, not milliseconds",
+    "synchronous_control": "Optimistic free barrier, not original DRAN PCG",
+    "loss_guarantee": "Configured bounded-delay contract",
+    "arm": "budget_predict",
+    "case": "se3_31",
+    "service_seconds": 0.6218895711936057,
+    "audit": {
+      "update_discrepancy": 1.1102230246251565e-16,
+      "supported_updates": 3087,
+      "actual_error_covered": 3037,
+      "actual_error_coverage": 0.9838030450275348,
+      "fully_supported_ticks": 1509,
+      "certified_ticks": 1460,
+      "conditional_bound_violation": 0.0,
+      "objective_decrease_ticks": 2000
+    }
+  },
+  {
+    "mode": "error_budget",
+    "scenario": "outage",
+    "seed": 34,
+    "ticks_completed": 2000,
+    "relative_gap": 1.9520631815879138e-24,
+    "relative_residual": 4.235783994109736e-13,
+    "first_gap_1e6_tick": 739,
+    "application_bytes": 999008,
+    "hop_messages": 4000,
+    "dropped_packets": 800,
+    "delivered_packets": 3195,
+    "obsolete_or_duplicate_packets": 955,
+    "updates": 4000,
+    "global_reductions": 0,
+    "synchronous_barriers": 0,
+    "max_cache_age": 403,
+    "bound_violations": 0,
+    "steps": {
+      "0": [
+        0.0013632993552326743,
+        0.9866588326398686
+      ],
+      "1": [
+        0.0013632993552326039,
+        0.9866588326398551
+      ]
+    },
+    "period_ticks": {
+      "0": 1,
+      "1": 1
+    },
+    "prediction": "model_response",
+    "history_size": 8,
+    "model_setup_bytes": 7008,
+    "model_statistics": {
+      "corrections": 2238,
+      "innovation_sq": 1.1227089397809418
+    },
+    "model_setup_contract": "Additional descriptors charged, setup delivery assumed; common row/chart setup excluded",
+    "forecast_degree_counts": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "response_statistics": {
+      "fits": 0,
+      "validations": 0,
+      "final_gains": [],
+      "validated_error": 0,
+      "validated_hold_error": 0
+    },
+    "error_budget_statistics": {
+      "supported_steps": 3087,
+      "fallback_steps": 913,
+      "zero_steps": 1729,
+      "validated": 1610,
+      "unlabelled": 1758,
+      "expired": 0,
+      "scored_bounds": 1540,
+      "retrospective_violations": 60,
+      "max_pending": 402
+    },
+    "gradient_error_sq_sum": 1.5496174696376426,
+    "held_gradient_error_sq_sum": 1.5534722531718654,
+    "delay_bounds": {
+      "0:0": 0,
+      "0:1": 407,
+      "1:0": 407,
+      "1:1": 0
+    },
+    "finite": true,
+    "horizon_complete": true,
+    "initial_state_norm": 3.540248401760188,
+    "setup_bytes_included": false,
+    "simulated_time_unit": "compute-opportunity tick, not milliseconds",
+    "synchronous_control": "Optimistic free barrier, not original DRAN PCG",
+    "loss_guarantee": "Configured bounded-delay contract",
+    "arm": "model_response",
+    "case": "se3_31",
+    "service_seconds": 0.5588446366600692,
+    "audit": {
+      "update_discrepancy": 1.1102230246251565e-16,
+      "supported_updates": 3087,
+      "actual_error_covered": 2995,
+      "actual_error_coverage": 0.970197602850664,
+      "fully_supported_ticks": 1509,
+      "certified_ticks": 1419,
+      "conditional_bound_violation": 0.0,
+      "objective_decrease_ticks": 2000
+    }
+  },
+  {
+    "mode": "error_budget",
+    "scenario": "outage",
+    "seed": 34,
+    "ticks_completed": 2000,
+    "relative_gap": 0.023758317160261177,
+    "relative_residual": 0.049260950275228865,
+    "first_gap_1e6_tick": null,
+    "application_bytes": 999008,
+    "hop_messages": 4000,
+    "dropped_packets": 800,
+    "delivered_packets": 3195,
+    "obsolete_or_duplicate_packets": 955,
+    "updates": 4000,
+    "global_reductions": 0,
+    "synchronous_barriers": 0,
+    "max_cache_age": 403,
+    "bound_violations": 0,
+    "steps": {
+      "0": [
+        0.0013632993552326743,
+        0.9866588326398686
+      ],
+      "1": [
+        0.0013632993552326039,
+        0.9866588326398551
+      ]
+    },
+    "period_ticks": {
+      "0": 1,
+      "1": 1
+    },
+    "prediction": "model_frozen",
+    "history_size": 8,
+    "model_setup_bytes": 7008,
+    "model_statistics": {
+      "corrections": 0,
+      "innovation_sq": 9.911111641046112
+    },
+    "model_setup_contract": "Additional descriptors charged, setup delivery assumed; common row/chart setup excluded",
+    "forecast_degree_counts": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "response_statistics": {
+      "fits": 0,
+      "validations": 0,
+      "final_gains": [],
+      "validated_error": 0,
+      "validated_hold_error": 0
+    },
+    "error_budget_statistics": {
+      "supported_steps": 3087,
+      "fallback_steps": 913,
+      "zero_steps": 2182,
+      "validated": 1610,
+      "unlabelled": 1758,
+      "expired": 0,
+      "scored_bounds": 1540,
+      "retrospective_violations": 202,
+      "max_pending": 402
+    },
+    "gradient_error_sq_sum": 522.2730779876033,
+    "held_gradient_error_sq_sum": 36.983002586942675,
+    "delay_bounds": {
+      "0:0": 0,
+      "0:1": 407,
+      "1:0": 407,
+      "1:1": 0
+    },
+    "finite": true,
+    "horizon_complete": true,
+    "initial_state_norm": 3.540248401760188,
+    "setup_bytes_included": false,
+    "simulated_time_unit": "compute-opportunity tick, not milliseconds",
+    "synchronous_control": "Optimistic free barrier, not original DRAN PCG",
+    "loss_guarantee": "Configured bounded-delay contract",
+    "arm": "model_frozen",
+    "case": "se3_31",
+    "service_seconds": 0.5587134822271764,
+    "audit": {
+      "update_discrepancy": 1.6653345369377348e-16,
+      "supported_updates": 3087,
+      "actual_error_covered": 2751,
+      "actual_error_coverage": 0.891156462585034,
+      "fully_supported_ticks": 1509,
+      "certified_ticks": 1194,
+      "conditional_bound_violation": 0.0,
+      "objective_decrease_ticks": 1846
+    }
+  },
+  {
+    "mode": "directional",
+    "scenario": "delay",
+    "seed": 34,
+    "ticks_completed": 2000,
+    "relative_gap": 0.001637696076582648,
+    "relative_residual": 0.0103080310286366,
+    "first_gap_1e6_tick": null,
+    "application_bytes": 1920000,
+    "hop_messages": 40000,
+    "dropped_packets": 0,
+    "delivered_packets": 39682,
+    "obsolete_or_duplicate_packets": 20104,
+    "updates": 10000,
+    "global_reductions": 0,
+    "synchronous_barriers": 0,
+    "max_cache_age": 20,
+    "bound_violations": 0,
+    "steps": {
+      "0": [
+        0.006896551724137931,
+        0.006896551724137931
+      ],
+      "1": [
+        0.006896551724137931,
+        0.006896551724137931
+      ],
+      "2": [
+        0.006896551724137931,
+        0.006896551724137931
+      ],
+      "3": [
+        0.006896551724137931,
+        0.006896551724137931
+      ],
+      "4": [
+        0.006896551724137931,
+        0.006896551724137931
+      ]
+    },
+    "period_ticks": {
+      "0": 1,
+      "1": 1,
+      "2": 1,
+      "3": 1,
+      "4": 1
+    },
+    "prediction": "hold",
+    "history_size": 8,
+    "model_setup_bytes": 0,
+    "model_statistics": {
+      "corrections": 0,
+      "innovation_sq": 0
+    },
+    "model_setup_contract": "Additional descriptors charged, setup delivery assumed; common row/chart setup excluded",
+    "forecast_degree_counts": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "response_statistics": {
+      "fits": 0,
+      "validations": 0,
+      "final_gains": [],
+      "validated_error": 0,
+      "validated_hold_error": 0
+    },
+    "error_budget_statistics": {
+      "supported_steps": 0,
+      "fallback_steps": 0,
+      "zero_steps": 0,
+      "validated": 0,
+      "unlabelled": 0,
+      "expired": 0,
+      "scored_bounds": 0,
+      "retrospective_violations": 0,
+      "max_pending": 0
+    },
+    "gradient_error_sq_sum": 12.459192112162148,
+    "held_gradient_error_sq_sum": 12.459192112162148,
+    "delay_bounds": {
+      "0:0": 0,
+      "0:1": 22,
+      "0:2": 22,
+      "0:3": 22,
+      "0:4": 22,
+      "1:0": 22,
+      "1:1": 0,
+      "1:2": 22,
+      "1:3": 22,
+      "1:4": 22,
+      "2:0": 22,
+      "2:1": 22,
+      "2:2": 0,
+      "2:3": 22,
+      "2:4": 22,
+      "3:0": 22,
+      "3:1": 22,
+      "3:2": 22,
+      "3:3": 0,
+      "3:4": 22,
+      "4:0": 22,
+      "4:1": 22,
+      "4:2": 22,
+      "4:3": 22,
+      "4:4": 0
+    },
+    "finite": true,
+    "horizon_complete": true,
+    "initial_state_norm": 1.7455932707313944,
+    "setup_bytes_included": false,
+    "simulated_time_unit": "compute-opportunity tick, not milliseconds",
+    "synchronous_control": "Optimistic free barrier, not original DRAN PCG",
+    "loss_guarantee": "Configured bounded-delay contract",
+    "arm": "baseline",
+    "case": "coupled_spd",
+    "service_seconds": 0.9824680062010884,
+    "audit": {
+      "update_discrepancy": 1.0585853356578895e-16,
+      "supported_updates": 0,
+      "actual_error_covered": 0,
+      "actual_error_coverage": null,
+      "fully_supported_ticks": 0,
+      "certified_ticks": 0,
+      "conditional_bound_violation": 0.0,
+      "objective_decrease_ticks": 2000
+    }
+  },
+  {
+    "mode": "error_budget",
+    "scenario": "delay",
+    "seed": 34,
+    "ticks_completed": 2000,
+    "relative_gap": 0.00010696114934484561,
+    "relative_residual": 0.002655498695852161,
+    "first_gap_1e6_tick": null,
+    "application_bytes": 1920000,
+    "hop_messages": 40000,
+    "dropped_packets": 0,
+    "delivered_packets": 39682,
+    "obsolete_or_duplicate_packets": 20104,
+    "updates": 10000,
+    "global_reductions": 0,
+    "synchronous_barriers": 0,
+    "max_cache_age": 20,
+    "bound_violations": 0,
+    "steps": {
+      "0": [
+        0.006896551724137931,
+        0.006896551724137931
+      ],
+      "1": [
+        0.006896551724137931,
+        0.006896551724137931
+      ],
+      "2": [
+        0.006896551724137931,
+        0.006896551724137931
+      ],
+      "3": [
+        0.006896551724137931,
+        0.006896551724137931
+      ],
+      "4": [
+        0.006896551724137931,
+        0.006896551724137931
+      ]
+    },
+    "period_ticks": {
+      "0": 1,
+      "1": 1,
+      "2": 1,
+      "3": 1,
+      "4": 1
+    },
+    "prediction": "hold",
+    "history_size": 8,
+    "model_setup_bytes": 0,
+    "model_statistics": {
+      "corrections": 0,
+      "innovation_sq": 0
+    },
+    "model_setup_contract": "Additional descriptors charged, setup delivery assumed; common row/chart setup excluded",
+    "forecast_degree_counts": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "response_statistics": {
+      "fits": 0,
+      "validations": 0,
+      "final_gains": [],
+      "validated_error": 0,
+      "validated_hold_error": 0
+    },
+    "error_budget_statistics": {
+      "supported_steps": 8592,
+      "fallback_steps": 1408,
+      "zero_steps": 6234,
+      "validated": 19578,
+      "unlabelled": 20137,
+      "expired": 0,
+      "scored_bounds": 18090,
+      "retrospective_violations": 2156,
+      "max_pending": 19
+    },
+    "gradient_error_sq_sum": 69.68590003563367,
+    "held_gradient_error_sq_sum": 69.68590003563367,
+    "delay_bounds": {
+      "0:0": 0,
+      "0:1": 22,
+      "0:2": 22,
+      "0:3": 22,
+      "0:4": 22,
+      "1:0": 22,
+      "1:1": 0,
+      "1:2": 22,
+      "1:3": 22,
+      "1:4": 22,
+      "2:0": 22,
+      "2:1": 22,
+      "2:2": 0,
+      "2:3": 22,
+      "2:4": 22,
+      "3:0": 22,
+      "3:1": 22,
+      "3:2": 22,
+      "3:3": 0,
+      "3:4": 22,
+      "4:0": 22,
+      "4:1": 22,
+      "4:2": 22,
+      "4:3": 22,
+      "4:4": 0
+    },
+    "finite": true,
+    "horizon_complete": true,
+    "initial_state_norm": 1.7455932707313944,
+    "setup_bytes_included": false,
+    "simulated_time_unit": "compute-opportunity tick, not milliseconds",
+    "synchronous_control": "Optimistic free barrier, not original DRAN PCG",
+    "loss_guarantee": "Configured bounded-delay contract",
+    "arm": "budget_hold",
+    "case": "coupled_spd",
+    "service_seconds": 2.2004114990122616,
+    "audit": {
+      "update_discrepancy": 1.092910057632186e-16,
+      "supported_updates": 8592,
+      "actual_error_covered": 8536,
+      "actual_error_coverage": 0.9934823091247672,
+      "fully_supported_ticks": 1368,
+      "certified_ticks": 1328,
+      "conditional_bound_violation": 0.0,
+      "objective_decrease_ticks": 1985
+    }
+  },
+  {
+    "mode": "error_budget",
+    "scenario": "delay",
+    "seed": 34,
+    "ticks_completed": 2000,
+    "relative_gap": 1.607833409091143e+103,
+    "relative_residual": 4.67928094335522e+51,
+    "first_gap_1e6_tick": null,
+    "application_bytes": 1920000,
+    "hop_messages": 40000,
+    "dropped_packets": 0,
+    "delivered_packets": 39682,
+    "obsolete_or_duplicate_packets": 20104,
+    "updates": 10000,
+    "global_reductions": 0,
+    "synchronous_barriers": 0,
+    "max_cache_age": 20,
+    "bound_violations": 0,
+    "steps": {
+      "0": [
+        0.006896551724137931,
+        0.006896551724137931
+      ],
+      "1": [
+        0.006896551724137931,
+        0.006896551724137931
+      ],
+      "2": [
+        0.006896551724137931,
+        0.006896551724137931
+      ],
+      "3": [
+        0.006896551724137931,
+        0.006896551724137931
+      ],
+      "4": [
+        0.006896551724137931,
+        0.006896551724137931
+      ]
+    },
+    "period_ticks": {
+      "0": 1,
+      "1": 1,
+      "2": 1,
+      "3": 1,
+      "4": 1
+    },
+    "prediction": "response_linear",
+    "history_size": 8,
+    "model_setup_bytes": 0,
+    "model_statistics": {
+      "corrections": 0,
+      "innovation_sq": 0
+    },
+    "model_setup_contract": "Additional descriptors charged, setup delivery assumed; common row/chart setup excluded",
+    "forecast_degree_counts": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "response_statistics": {
+      "fits": 19578,
+      "validations": 19558,
+      "final_gains": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "validated_error": 1.3761416815969504e+100,
+      "validated_hold_error": 1.5692708108101475e+100
+    },
+    "error_budget_statistics": {
+      "supported_steps": 8592,
+      "fallback_steps": 1408,
+      "zero_steps": 2872,
+      "validated": 19578,
+      "unlabelled": 20137,
+      "expired": 0,
+      "scored_bounds": 18090,
+      "retrospective_violations": 14740,
+      "max_pending": 19
+    },
+    "gradient_error_sq_sum": 9.694427508413488e+104,
+    "held_gradient_error_sq_sum": 5.5684689357899873e+104,
+    "delay_bounds": {
+      "0:0": 0,
+      "0:1": 22,
+      "0:2": 22,
+      "0:3": 22,
+      "0:4": 22,
+      "1:0": 22,
+      "1:1": 0,
+      "1:2": 22,
+      "1:3": 22,
+      "1:4": 22,
+      "2:0": 22,
+      "2:1": 22,
+      "2:2": 0,
+      "2:3": 22,
+      "2:4": 22,
+      "3:0": 22,
+      "3:1": 22,
+      "3:2": 22,
+      "3:3": 0,
+      "3:4": 22,
+      "4:0": 22,
+      "4:1": 22,
+      "4:2": 22,
+      "4:3": 22,
+      "4:4": 0
+    },
+    "finite": true,
+    "horizon_complete": true,
+    "initial_state_norm": 1.7455932707313944,
+    "setup_bytes_included": false,
+    "simulated_time_unit": "compute-opportunity tick, not milliseconds",
+    "synchronous_control": "Optimistic free barrier, not original DRAN PCG",
+    "loss_guarantee": "Configured bounded-delay contract",
+    "arm": "budget_predict",
+    "case": "coupled_spd",
+    "service_seconds": 3.897091780323535,
+    "audit": {
+      "update_discrepancy": 2.1900446173203744e-16,
+      "supported_updates": 8592,
+      "actual_error_covered": 1427,
+      "actual_error_coverage": 0.16608472998137802,
+      "fully_supported_ticks": 1368,
+      "certified_ticks": 79,
+      "conditional_bound_violation": 0.0,
+      "objective_decrease_ticks": 985
+    }
+  },
+  {
+    "mode": "error_budget",
+    "scenario": "delay",
+    "seed": 34,
+    "ticks_completed": 2000,
+    "relative_gap": 7.641720605428003e-05,
+    "relative_residual": 0.0023526783808253283,
+    "first_gap_1e6_tick": null,
+    "application_bytes": 2881440,
+    "hop_messages": 40000,
+    "dropped_packets": 0,
+    "delivered_packets": 39682,
+    "obsolete_or_duplicate_packets": 20104,
+    "updates": 10000,
+    "global_reductions": 0,
+    "synchronous_barriers": 0,
+    "max_cache_age": 20,
+    "bound_violations": 0,
+    "steps": {
+      "0": [
+        0.006896551724137931,
+        0.006896551724137931
+      ],
+      "1": [
+        0.006896551724137931,
+        0.006896551724137931
+      ],
+      "2": [
+        0.006896551724137931,
+        0.006896551724137931
+      ],
+      "3": [
+        0.006896551724137931,
+        0.006896551724137931
+      ],
+      "4": [
+        0.006896551724137931,
+        0.006896551724137931
+      ]
+    },
+    "period_ticks": {
+      "0": 1,
+      "1": 1,
+      "2": 1,
+      "3": 1,
+      "4": 1
+    },
+    "prediction": "model_response",
+    "history_size": 8,
+    "model_setup_bytes": 1440,
+    "model_statistics": {
+      "corrections": 19558,
+      "innovation_sq": 12.664661050719834
+    },
+    "model_setup_contract": "Additional descriptors charged, setup delivery assumed; common row/chart setup excluded",
+    "forecast_degree_counts": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "response_statistics": {
+      "fits": 0,
+      "validations": 0,
+      "final_gains": [],
+      "validated_error": 0,
+      "validated_hold_error": 0
+    },
+    "error_budget_statistics": {
+      "supported_steps": 8592,
+      "fallback_steps": 1408,
+      "zero_steps": 7343,
+      "validated": 19578,
+      "unlabelled": 20137,
+      "expired": 0,
+      "scored_bounds": 18090,
+      "retrospective_violations": 2450,
+      "max_pending": 19
+    },
+    "gradient_error_sq_sum": 70.88966244076224,
+    "held_gradient_error_sq_sum": 70.22971276616394,
+    "delay_bounds": {
+      "0:0": 0,
+      "0:1": 22,
+      "0:2": 22,
+      "0:3": 22,
+      "0:4": 22,
+      "1:0": 22,
+      "1:1": 0,
+      "1:2": 22,
+      "1:3": 22,
+      "1:4": 22,
+      "2:0": 22,
+      "2:1": 22,
+      "2:2": 0,
+      "2:3": 22,
+      "2:4": 22,
+      "3:0": 22,
+      "3:1": 22,
+      "3:2": 22,
+      "3:3": 0,
+      "3:4": 22,
+      "4:0": 22,
+      "4:1": 22,
+      "4:2": 22,
+      "4:3": 22,
+      "4:4": 0
+    },
+    "finite": true,
+    "horizon_complete": true,
+    "initial_state_norm": 1.7455932707313944,
+    "setup_bytes_included": false,
+    "simulated_time_unit": "compute-opportunity tick, not milliseconds",
+    "synchronous_control": "Optimistic free barrier, not original DRAN PCG",
+    "loss_guarantee": "Configured bounded-delay contract",
+    "arm": "model_response",
+    "case": "coupled_spd",
+    "service_seconds": 3.1890080012381077,
+    "audit": {
+      "update_discrepancy": 1.092910057632186e-16,
+      "supported_updates": 8592,
+      "actual_error_covered": 8452,
+      "actual_error_coverage": 0.9837057728119181,
+      "fully_supported_ticks": 1368,
+      "certified_ticks": 1288,
+      "conditional_bound_violation": 0.0,
+      "objective_decrease_ticks": 1985
+    }
+  },
+  {
+    "mode": "error_budget",
+    "scenario": "delay",
+    "seed": 34,
+    "ticks_completed": 2000,
+    "relative_gap": 0.45074664505774625,
+    "relative_residual": 0.7748725306379355,
+    "first_gap_1e6_tick": null,
+    "application_bytes": 2881440,
+    "hop_messages": 40000,
+    "dropped_packets": 0,
+    "delivered_packets": 39682,
+    "obsolete_or_duplicate_packets": 20104,
+    "updates": 10000,
+    "global_reductions": 0,
+    "synchronous_barriers": 0,
+    "max_cache_age": 20,
+    "bound_violations": 0,
+    "steps": {
+      "0": [
+        0.006896551724137931,
+        0.006896551724137931
+      ],
+      "1": [
+        0.006896551724137931,
+        0.006896551724137931
+      ],
+      "2": [
+        0.006896551724137931,
+        0.006896551724137931
+      ],
+      "3": [
+        0.006896551724137931,
+        0.006896551724137931
+      ],
+      "4": [
+        0.006896551724137931,
+        0.006896551724137931
+      ]
+    },
+    "period_ticks": {
+      "0": 1,
+      "1": 1,
+      "2": 1,
+      "3": 1,
+      "4": 1
+    },
+    "prediction": "model_frozen",
+    "history_size": 8,
+    "model_setup_bytes": 1440,
+    "model_statistics": {
+      "corrections": 0,
+      "innovation_sq": 78.14477535078659
+    },
+    "model_setup_contract": "Additional descriptors charged, setup delivery assumed; common row/chart setup excluded",
+    "forecast_degree_counts": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "response_statistics": {
+      "fits": 0,
+      "validations": 0,
+      "final_gains": [],
+      "validated_error": 0,
+      "validated_hold_error": 0
+    },
+    "error_budget_statistics": {
+      "supported_steps": 8592,
+      "fallback_steps": 1408,
+      "zero_steps": 7802,
+      "validated": 19578,
+      "unlabelled": 20137,
+      "expired": 0,
+      "scored_bounds": 18090,
+      "retrospective_violations": 2910,
+      "max_pending": 19
+    },
+    "gradient_error_sq_sum": 1916.0082297482195,
+    "held_gradient_error_sq_sum": 439.04848867345424,
+    "delay_bounds": {
+      "0:0": 0,
+      "0:1": 22,
+      "0:2": 22,
+      "0:3": 22,
+      "0:4": 22,
+      "1:0": 22,
+      "1:1": 0,
+      "1:2": 22,
+      "1:3": 22,
+      "1:4": 22,
+      "2:0": 22,
+      "2:1": 22,
+      "2:2": 0,
+      "2:3": 22,
+      "2:4": 22,
+      "3:0": 22,
+      "3:1": 22,
+      "3:2": 22,
+      "3:3": 0,
+      "3:4": 22,
+      "4:0": 22,
+      "4:1": 22,
+      "4:2": 22,
+      "4:3": 22,
+      "4:4": 0
+    },
+    "finite": true,
+    "horizon_complete": true,
+    "initial_state_norm": 1.7455932707313944,
+    "setup_bytes_included": false,
+    "simulated_time_unit": "compute-opportunity tick, not milliseconds",
+    "synchronous_control": "Optimistic free barrier, not original DRAN PCG",
+    "loss_guarantee": "Configured bounded-delay contract",
+    "arm": "model_frozen",
+    "case": "coupled_spd",
+    "service_seconds": 3.1727833193726838,
+    "audit": {
+      "update_discrepancy": 1.092910057632186e-16,
+      "supported_updates": 8592,
+      "actual_error_covered": 7719,
+      "actual_error_coverage": 0.8983938547486033,
+      "fully_supported_ticks": 1368,
+      "certified_ticks": 1058,
+      "conditional_bound_violation": 0.0,
+      "objective_decrease_ticks": 1805
+    }
+  },
+  {
+    "mode": "directional",
+    "scenario": "outage",
+    "seed": 34,
+    "ticks_completed": 2000,
+    "relative_gap": 0.04556417564156568,
+    "relative_residual": 0.05542317381111343,
+    "first_gap_1e6_tick": null,
+    "application_bytes": 1920000,
+    "hop_messages": 40000,
+    "dropped_packets": 800,
+    "delivered_packets": 39140,
+    "obsolete_or_duplicate_packets": 11999,
+    "updates": 10000,
+    "global_reductions": 0,
+    "synchronous_barriers": 0,
+    "max_cache_age": 403,
+    "bound_violations": 0,
+    "steps": {
+      "0": [
+        0.02040816326530612,
+        0.02040816326530612
+      ],
+      "1": [
+        0.0014513788098693757,
+        0.0014513788098693757
+      ],
+      "2": [
+        0.02040816326530612,
+        0.02040816326530612
+      ],
+      "3": [
+        0.0014513788098693757,
+        0.0014513788098693757
+      ],
+      "4": [
+        0.02040816326530612,
+        0.02040816326530612
+      ]
+    },
+    "period_ticks": {
+      "0": 1,
+      "1": 1,
+      "2": 1,
+      "3": 1,
+      "4": 1
+    },
+    "prediction": "hold",
+    "history_size": 8,
+    "model_setup_bytes": 0,
+    "model_statistics": {
+      "corrections": 0,
+      "innovation_sq": 0
+    },
+    "model_setup_contract": "Additional descriptors charged, setup delivery assumed; common row/chart setup excluded",
+    "forecast_degree_counts": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "response_statistics": {
+      "fits": 0,
+      "validations": 0,
+      "final_gains": [],
+      "validated_error": 0,
+      "validated_hold_error": 0
+    },
+    "error_budget_statistics": {
+      "supported_steps": 0,
+      "fallback_steps": 0,
+      "zero_steps": 0,
+      "validated": 0,
+      "unlabelled": 0,
+      "expired": 0,
+      "scored_bounds": 0,
+      "retrospective_violations": 0,
+      "max_pending": 0
+    },
+    "gradient_error_sq_sum": 1.6991786042400172,
+    "held_gradient_error_sq_sum": 1.6991786042400172,
+    "delay_bounds": {
+      "0:0": 0,
+      "0:1": 7,
+      "0:2": 7,
+      "0:3": 7,
+      "0:4": 7,
+      "1:0": 7,
+      "1:1": 0,
+      "1:2": 7,
+      "1:3": 407,
+      "1:4": 7,
+      "2:0": 7,
+      "2:1": 7,
+      "2:2": 0,
+      "2:3": 7,
+      "2:4": 7,
+      "3:0": 7,
+      "3:1": 407,
+      "3:2": 7,
+      "3:3": 0,
+      "3:4": 7,
+      "4:0": 7,
+      "4:1": 7,
+      "4:2": 7,
+      "4:3": 7,
+      "4:4": 0
+    },
+    "finite": true,
+    "horizon_complete": true,
+    "initial_state_norm": 1.7455932707313944,
+    "setup_bytes_included": false,
+    "simulated_time_unit": "compute-opportunity tick, not milliseconds",
+    "synchronous_control": "Optimistic free barrier, not original DRAN PCG",
+    "loss_guarantee": "Configured bounded-delay contract",
+    "arm": "baseline",
+    "case": "coupled_spd",
+    "service_seconds": 1.0095278732478619,
+    "audit": {
+      "update_discrepancy": 1.047835363640241e-16,
+      "supported_updates": 0,
+      "actual_error_covered": 0,
+      "actual_error_coverage": null,
+      "fully_supported_ticks": 0,
+      "certified_ticks": 0,
+      "conditional_bound_violation": 0.0,
+      "objective_decrease_ticks": 2000
+    }
+  },
+  {
+    "mode": "error_budget",
+    "scenario": "outage",
+    "seed": 34,
+    "ticks_completed": 2000,
+    "relative_gap": 2.7000094022033743e-17,
+    "relative_residual": 1.3273415129665524e-09,
+    "first_gap_1e6_tick": 817,
+    "application_bytes": 1920000,
+    "hop_messages": 40000,
+    "dropped_packets": 800,
+    "delivered_packets": 39140,
+    "obsolete_or_duplicate_packets": 11999,
+    "updates": 10000,
+    "global_reductions": 0,
+    "synchronous_barriers": 0,
+    "max_cache_age": 403,
+    "bound_violations": 0,
+    "steps": {
+      "0": [
+        0.02040816326530612,
+        0.02040816326530612
+      ],
+      "1": [
+        0.0014513788098693757,
+        0.0014513788098693757
+      ],
+      "2": [
+        0.02040816326530612,
+        0.02040816326530612
+      ],
+      "3": [
+        0.0014513788098693757,
+        0.0014513788098693757
+      ],
+      "4": [
+        0.02040816326530612,
+        0.02040816326530612
+      ]
+    },
+    "period_ticks": {
+      "0": 1,
+      "1": 1,
+      "2": 1,
+      "3": 1,
+      "4": 1
+    },
+    "prediction": "hold",
+    "history_size": 8,
+    "model_setup_bytes": 0,
+    "model_statistics": {
+      "corrections": 0,
+      "innovation_sq": 0
+    },
+    "model_setup_contract": "Additional descriptors charged, setup delivery assumed; common row/chart setup excluded",
+    "forecast_degree_counts": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "response_statistics": {
+      "fits": 0,
+      "validations": 0,
+      "final_gains": [],
+      "validated_error": 0,
+      "validated_hold_error": 0
+    },
+    "error_budget_statistics": {
+      "supported_steps": 8645,
+      "fallback_steps": 1355,
+      "zero_steps": 4136,
+      "validated": 19268,
+      "unlabelled": 12808,
+      "expired": 0,
+      "scored_bounds": 18613,
+      "retrospective_violations": 1042,
+      "max_pending": 402
+    },
+    "gradient_error_sq_sum": 7.1192650775610975,
+    "held_gradient_error_sq_sum": 7.1192650775610975,
+    "delay_bounds": {
+      "0:0": 0,
+      "0:1": 7,
+      "0:2": 7,
+      "0:3": 7,
+      "0:4": 7,
+      "1:0": 7,
+      "1:1": 0,
+      "1:2": 7,
+      "1:3": 407,
+      "1:4": 7,
+      "2:0": 7,
+      "2:1": 7,
+      "2:2": 0,
+      "2:3": 7,
+      "2:4": 7,
+      "3:0": 7,
+      "3:1": 407,
+      "3:2": 7,
+      "3:3": 0,
+      "3:4": 7,
+      "4:0": 7,
+      "4:1": 7,
+      "4:2": 7,
+      "4:3": 7,
+      "4:4": 0
+    },
+    "finite": true,
+    "horizon_complete": true,
+    "initial_state_norm": 1.7455932707313944,
+    "setup_bytes_included": false,
+    "simulated_time_unit": "compute-opportunity tick, not milliseconds",
+    "synchronous_control": "Optimistic free barrier, not original DRAN PCG",
+    "loss_guarantee": "Configured bounded-delay contract",
+    "arm": "budget_hold",
+    "case": "coupled_spd",
+    "service_seconds": 2.2416597637347877,
+    "audit": {
+      "update_discrepancy": 9.866238518885263e-17,
+      "supported_updates": 8645,
+      "actual_error_covered": 8564,
+      "actual_error_coverage": 0.9906304222093696,
+      "fully_supported_ticks": 1420,
+      "certified_ticks": 1369,
+      "conditional_bound_violation": 0.0,
+      "objective_decrease_ticks": 1998
+    }
+  },
+  {
+    "mode": "error_budget",
+    "scenario": "outage",
+    "seed": 34,
+    "ticks_completed": 2000,
+    "relative_gap": 9.00718277518863e-21,
+    "relative_residual": 2.424823137918651e-11,
+    "first_gap_1e6_tick": 766,
+    "application_bytes": 1920000,
+    "hop_messages": 40000,
+    "dropped_packets": 800,
+    "delivered_packets": 39140,
+    "obsolete_or_duplicate_packets": 11999,
+    "updates": 10000,
+    "global_reductions": 0,
+    "synchronous_barriers": 0,
+    "max_cache_age": 403,
+    "bound_violations": 0,
+    "steps": {
+      "0": [
+        0.02040816326530612,
+        0.02040816326530612
+      ],
+      "1": [
+        0.0014513788098693757,
+        0.0014513788098693757
+      ],
+      "2": [
+        0.02040816326530612,
+        0.02040816326530612
+      ],
+      "3": [
+        0.0014513788098693757,
+        0.0014513788098693757
+      ],
+      "4": [
+        0.02040816326530612,
+        0.02040816326530612
+      ]
+    },
+    "period_ticks": {
+      "0": 1,
+      "1": 1,
+      "2": 1,
+      "3": 1,
+      "4": 1
+    },
+    "prediction": "response_linear",
+    "history_size": 8,
+    "model_setup_bytes": 0,
+    "model_statistics": {
+      "corrections": 0,
+      "innovation_sq": 0
+    },
+    "model_setup_contract": "Additional descriptors charged, setup delivery assumed; common row/chart setup excluded",
+    "forecast_degree_counts": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "response_statistics": {
+      "fits": 27141,
+      "validations": 27121,
+      "final_gains": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "validated_error": 0.035352727628334385,
+      "validated_hold_error": 0.0016924834369140935
+    },
+    "error_budget_statistics": {
+      "supported_steps": 8645,
+      "fallback_steps": 1355,
+      "zero_steps": 3415,
+      "validated": 19268,
+      "unlabelled": 12808,
+      "expired": 0,
+      "scored_bounds": 18613,
+      "retrospective_violations": 861,
+      "max_pending": 402
+    },
+    "gradient_error_sq_sum": 7.11172630451308,
+    "held_gradient_error_sq_sum": 7.123915930184372,
+    "delay_bounds": {
+      "0:0": 0,
+      "0:1": 7,
+      "0:2": 7,
+      "0:3": 7,
+      "0:4": 7,
+      "1:0": 7,
+      "1:1": 0,
+      "1:2": 7,
+      "1:3": 407,
+      "1:4": 7,
+      "2:0": 7,
+      "2:1": 7,
+      "2:2": 0,
+      "2:3": 7,
+      "2:4": 7,
+      "3:0": 7,
+      "3:1": 407,
+      "3:2": 7,
+      "3:3": 0,
+      "3:4": 7,
+      "4:0": 7,
+      "4:1": 7,
+      "4:2": 7,
+      "4:3": 7,
+      "4:4": 0
+    },
+    "finite": true,
+    "horizon_complete": true,
+    "initial_state_norm": 1.7455932707313944,
+    "setup_bytes_included": false,
+    "simulated_time_unit": "compute-opportunity tick, not milliseconds",
+    "synchronous_control": "Optimistic free barrier, not original DRAN PCG",
+    "loss_guarantee": "Configured bounded-delay contract",
+    "arm": "budget_predict",
+    "case": "coupled_spd",
+    "service_seconds": 4.502413684036583,
+    "audit": {
+      "update_discrepancy": 9.776769051179319e-17,
+      "supported_updates": 8645,
+      "actual_error_covered": 8579,
+      "actual_error_coverage": 0.9923655292076344,
+      "fully_supported_ticks": 1420,
+      "certified_ticks": 1381,
+      "conditional_bound_violation": 0.0,
+      "objective_decrease_ticks": 1998
+    }
+  },
+  {
+    "mode": "error_budget",
+    "scenario": "outage",
+    "seed": 34,
+    "ticks_completed": 2000,
+    "relative_gap": 6.99720572428493e-18,
+    "relative_residual": 6.962242707577055e-10,
+    "first_gap_1e6_tick": 808,
+    "application_bytes": 2881440,
+    "hop_messages": 40000,
+    "dropped_packets": 800,
+    "delivered_packets": 39140,
+    "obsolete_or_duplicate_packets": 11999,
+    "updates": 10000,
+    "global_reductions": 0,
+    "synchronous_barriers": 0,
+    "max_cache_age": 403,
+    "bound_violations": 0,
+    "steps": {
+      "0": [
+        0.02040816326530612,
+        0.02040816326530612
+      ],
+      "1": [
+        0.0014513788098693757,
+        0.0014513788098693757
+      ],
+      "2": [
+        0.02040816326530612,
+        0.02040816326530612
+      ],
+      "3": [
+        0.0014513788098693757,
+        0.0014513788098693757
+      ],
+      "4": [
+        0.02040816326530612,
+        0.02040816326530612
+      ]
+    },
+    "period_ticks": {
+      "0": 1,
+      "1": 1,
+      "2": 1,
+      "3": 1,
+      "4": 1
+    },
+    "prediction": "model_response",
+    "history_size": 8,
+    "model_setup_bytes": 1440,
+    "model_statistics": {
+      "corrections": 27121,
+      "innovation_sq": 10.987298444223134
+    },
+    "model_setup_contract": "Additional descriptors charged, setup delivery assumed; common row/chart setup excluded",
+    "forecast_degree_counts": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "response_statistics": {
+      "fits": 0,
+      "validations": 0,
+      "final_gains": [],
+      "validated_error": 0,
+      "validated_hold_error": 0
+    },
+    "error_budget_statistics": {
+      "supported_steps": 8645,
+      "fallback_steps": 1355,
+      "zero_steps": 3939,
+      "validated": 19268,
+      "unlabelled": 12808,
+      "expired": 0,
+      "scored_bounds": 18613,
+      "retrospective_violations": 999,
+      "max_pending": 402
+    },
+    "gradient_error_sq_sum": 7.1257755266393366,
+    "held_gradient_error_sq_sum": 7.116131158383747,
+    "delay_bounds": {
+      "0:0": 0,
+      "0:1": 7,
+      "0:2": 7,
+      "0:3": 7,
+      "0:4": 7,
+      "1:0": 7,
+      "1:1": 0,
+      "1:2": 7,
+      "1:3": 407,
+      "1:4": 7,
+      "2:0": 7,
+      "2:1": 7,
+      "2:2": 0,
+      "2:3": 7,
+      "2:4": 7,
+      "3:0": 7,
+      "3:1": 407,
+      "3:2": 7,
+      "3:3": 0,
+      "3:4": 7,
+      "4:0": 7,
+      "4:1": 7,
+      "4:2": 7,
+      "4:3": 7,
+      "4:4": 0
+    },
+    "finite": true,
+    "horizon_complete": true,
+    "initial_state_norm": 1.7455932707313944,
+    "setup_bytes_included": false,
+    "simulated_time_unit": "compute-opportunity tick, not milliseconds",
+    "synchronous_control": "Optimistic free barrier, not original DRAN PCG",
+    "loss_guarantee": "Configured bounded-delay contract",
+    "arm": "model_response",
+    "case": "coupled_spd",
+    "service_seconds": 3.5700866556726396,
+    "audit": {
+      "update_discrepancy": 1.0412631845987923e-16,
+      "supported_updates": 8645,
+      "actual_error_covered": 8572,
+      "actual_error_coverage": 0.9915558126084442,
+      "fully_supported_ticks": 1420,
+      "certified_ticks": 1382,
+      "conditional_bound_violation": 0.0,
+      "objective_decrease_ticks": 1998
+    }
+  },
+  {
+    "mode": "error_budget",
+    "scenario": "outage",
+    "seed": 34,
+    "ticks_completed": 2000,
+    "relative_gap": 0.007621554888008491,
+    "relative_residual": 0.04580006884345253,
+    "first_gap_1e6_tick": null,
+    "application_bytes": 2881440,
+    "hop_messages": 40000,
+    "dropped_packets": 800,
+    "delivered_packets": 39140,
+    "obsolete_or_duplicate_packets": 11999,
+    "updates": 10000,
+    "global_reductions": 0,
+    "synchronous_barriers": 0,
+    "max_cache_age": 403,
+    "bound_violations": 0,
+    "steps": {
+      "0": [
+        0.02040816326530612,
+        0.02040816326530612
+      ],
+      "1": [
+        0.0014513788098693757,
+        0.0014513788098693757
+      ],
+      "2": [
+        0.02040816326530612,
+        0.02040816326530612
+      ],
+      "3": [
+        0.0014513788098693757,
+        0.0014513788098693757
+      ],
+      "4": [
+        0.02040816326530612,
+        0.02040816326530612
+      ]
+    },
+    "period_ticks": {
+      "0": 1,
+      "1": 1,
+      "2": 1,
+      "3": 1,
+      "4": 1
+    },
+    "prediction": "model_frozen",
+    "history_size": 8,
+    "model_setup_bytes": 1440,
+    "model_statistics": {
+      "corrections": 0,
+      "innovation_sq": 22.82741176746311
+    },
+    "model_setup_contract": "Additional descriptors charged, setup delivery assumed; common row/chart setup excluded",
+    "forecast_degree_counts": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "response_statistics": {
+      "fits": 0,
+      "validations": 0,
+      "final_gains": [],
+      "validated_error": 0,
+      "validated_hold_error": 0
+    },
+    "error_budget_statistics": {
+      "supported_steps": 8645,
+      "fallback_steps": 1355,
+      "zero_steps": 7354,
+      "validated": 19268,
+      "unlabelled": 12808,
+      "expired": 0,
+      "scored_bounds": 18613,
+      "retrospective_violations": 2225,
+      "max_pending": 402
+    },
+    "gradient_error_sq_sum": 171.41302920405542,
+    "held_gradient_error_sq_sum": 12.431380238331116,
+    "delay_bounds": {
+      "0:0": 0,
+      "0:1": 7,
+      "0:2": 7,
+      "0:3": 7,
+      "0:4": 7,
+      "1:0": 7,
+      "1:1": 0,
+      "1:2": 7,
+      "1:3": 407,
+      "1:4": 7,
+      "2:0": 7,
+      "2:1": 7,
+      "2:2": 0,
+      "2:3": 7,
+      "2:4": 7,
+      "3:0": 7,
+      "3:1": 407,
+      "3:2": 7,
+      "3:3": 0,
+      "3:4": 7,
+      "4:0": 7,
+      "4:1": 7,
+      "4:2": 7,
+      "4:3": 7,
+      "4:4": 0
+    },
+    "finite": true,
+    "horizon_complete": true,
+    "initial_state_norm": 1.7455932707313944,
+    "setup_bytes_included": false,
+    "simulated_time_unit": "compute-opportunity tick, not milliseconds",
+    "synchronous_control": "Optimistic free barrier, not original DRAN PCG",
+    "loss_guarantee": "Configured bounded-delay contract",
+    "arm": "model_frozen",
+    "case": "coupled_spd",
+    "service_seconds": 3.372417989652604,
+    "audit": {
+      "update_discrepancy": 1.0318674261432304e-16,
+      "supported_updates": 8645,
+      "actual_error_covered": 7884,
+      "actual_error_coverage": 0.9119722382880278,
+      "fully_supported_ticks": 1420,
+      "certified_ticks": 1030,
+      "conditional_bound_violation": 0.0,
+      "objective_decrease_ticks": 1762
+    }
+  }
+]

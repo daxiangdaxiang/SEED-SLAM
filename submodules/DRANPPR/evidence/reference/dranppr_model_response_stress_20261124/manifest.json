@@ -1,0 +1,53 @@
+{
+  "command": [
+    "/home/jackal/zyx/dpgo_ICRA/projects/seed_slam/DRANPPR/experiments/audit_model_response.py",
+    "--output",
+    "results/dranppr_model_response_stress_20261124",
+    "--stress"
+  ],
+  "all_terminal": true,
+  "cases": [
+    "d1",
+    "d4",
+    "se3_31",
+    "coupled_spd"
+  ],
+  "scenarios": [
+    "delay",
+    "outage"
+  ],
+  "seeds": [
+    34
+  ],
+  "ticks": 2000,
+  "arms": {
+    "baseline": [
+      "directional",
+      "hold"
+    ],
+    "budget_hold": [
+      "error_budget",
+      "hold"
+    ],
+    "budget_predict": [
+      "error_budget",
+      "response_linear"
+    ],
+    "model_response": [
+      "error_budget",
+      "model_response"
+    ],
+    "model_frozen": [
+      "error_budget",
+      "model_frozen"
+    ]
+  },
+  "stress": true,
+  "initial_seed": null,
+  "source_root": "/home/jackal/zyx/dpgo_ICRA/projects/seed_slam/DRANPPR/results/dranppr_response_final_20261124",
+  "source_ledger": "6706a6b326edba8080577b84762326b91ac2160dc6c245cb926910421b2d9678",
+  "scope": "Fixed quadratics, not native online SE3 or ATE",
+  "truth_used": false,
+  "memory": 8,
+  "model_setup": "Incremental descriptor bytes included; delivery assumed; common offline row setup excluded"
+}

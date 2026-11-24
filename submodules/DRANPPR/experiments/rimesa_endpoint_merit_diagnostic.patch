@@ -1,0 +1,44 @@
+diff --git a/risam/include/risam/DoglegLineSearch.h b/risam/include/risam/DoglegLineSearch.h
+index 9748b84..665bf45 100644
+--- a/risam/include/risam/DoglegLineSearch.h
++++ b/risam/include/risam/DoglegLineSearch.h
+@@ -61,6 +61,8 @@ inline gtsam::VectorValues ComputeDoglegPoint(double delta, const gtsam::VectorV
+                                               const gtsam::VectorValues& dx_n, const bool verbose) {
+   // Get magnitude of each update and find out which segment delta falls in
+   assert(delta >= 0.0);
++  // Preserve the exact Newton endpoint without a norm -> square round trip.
++  if (delta >= dx_n.norm()) return dx_n;
+   double deltaSq = delta * delta;
+   double x_u_norm_sq = dx_u.squaredNorm();
+   double x_n_norm_sq = dx_n.squaredNorm();
+@@ -322,4 +324,4 @@ struct DoglegLineSearch {
+   }
+ };
+ 
+-}  // namespace risam
+\ No newline at end of file
++}  // namespace risam
+diff --git a/risam/src/ExtendedISAM2.cpp b/risam/src/ExtendedISAM2.cpp
+index e177bbe..c5c6efc 100644
+--- a/risam/src/ExtendedISAM2.cpp
++++ b/risam/src/ExtendedISAM2.cpp
+@@ -2,6 +2,7 @@
+ 
+ #include <gtsam/nonlinear/DoglegOptimizerImpl.h>
+ #include <gtsam/nonlinear/ISAM2-impl.h>
++#include "risam/GraduatedFactor.h"
+ 
+ /**
+  * #### ##    ## ######## ######## ########  ########    ###     ######  ########
+@@ -81,8 +82,9 @@ void ExtendedISAM2::runBackSubstitution(bool force_full_solve) const {
+ double ExtendedISAM2::residual(const gtsam::Values& values) const {
+   double residual = 0.0;
+   for (auto factor : nonlinearFactors_) {
+-    // Error returns $0.5 ||h(x) - z||_Sigma^2$
+-    residual += std::sqrt(2 * factor->error(values));
++    // GraduatedFactor::error wraps the kernel cost in another squared norm.
++    const auto graduated = boost::dynamic_pointer_cast<risam::GraduatedFactor>(factor);
++    residual += graduated ? graduated->robustResidual(values) : factor->error(values);
+   }
+   return residual;
+ }

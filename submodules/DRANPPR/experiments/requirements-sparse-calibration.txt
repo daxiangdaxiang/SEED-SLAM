@@ -1,0 +1,5 @@
+# Requires system libsuitesparse-dev (already a DPGO dependency).
+# With conda Python and system SuiteSparse headers, install with:
+# CFLAGS=-I/usr/include/suitesparse python3 -m pip install --user --no-deps -r experiments/requirements-sparse-calibration.txt
+# NumPy, SciPy and cffi must already be installed; no environment-wide upgrades.
+sparseqr==1.6.0

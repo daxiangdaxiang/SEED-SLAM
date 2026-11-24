@@ -1,0 +1,7 @@
+{
+  "all_terminal": true,
+  "source_root": "/home/jackal/zyx/dpgo_ICRA/projects/seed_slam/DRANPPR/results/dranppr_model_response_controls_20261124",
+  "source_ledger": "88cdb5da71449e03aaee108577bf2c6ebaf5549f454702d75997136e18d22922",
+  "parity_root": "None",
+  "scope": "Read-only integer-traffic, update, metric and legacy replay audit"
+}

@@ -1,0 +1,17 @@
+{
+  "all_terminal": true,
+  "cases": [
+    "d1",
+    "d4",
+    "d2",
+    "d3",
+    "d9",
+    "se3_31",
+    "se3_32",
+    "se3_33",
+    "coupled_spd"
+  ],
+  "scope": "Frozen physical quadratics and a synthetic SPD control; not raw sensor datasets",
+  "source_archive": "dranppr_response_final_20261124",
+  "source_ledger": "6706a6b326edba8080577b84762326b91ac2160dc6c245cb926910421b2d9678"
+}

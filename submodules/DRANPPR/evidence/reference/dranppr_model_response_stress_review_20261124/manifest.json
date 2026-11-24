@@ -1,0 +1,7 @@
+{
+  "all_terminal": true,
+  "source_root": "/home/jackal/zyx/dpgo_ICRA/projects/seed_slam/DRANPPR/results/dranppr_model_response_stress_20261124",
+  "source_ledger": "ecd4712b720ec6195e0c2a9cb90e794fe9c4315c2aea0d6bc35b4ad2fbf5b333",
+  "parity_root": "results/dranppr_error_budget_stress_20261124",
+  "scope": "Read-only integer-traffic, update, metric and legacy replay audit"
+}

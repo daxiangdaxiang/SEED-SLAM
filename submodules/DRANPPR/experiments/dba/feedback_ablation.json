@@ -1,0 +1,35 @@
+{
+  "binary": "build/bin/manual-object-dran-example",
+  "lower_iterations": 10,
+  "safety_max_outer_iterations": 20,
+  "datasets": [
+    {
+      "name": "05",
+      "data_dir": "experiments/dba/05/data",
+      "metadata": "experiments/dba/05/data/local_object_metadata.csv",
+      "lower_topology": "experiments/dba/lower_topology.csv",
+      "upper_topology": "experiments/dba/upper_topology.csv",
+      "ground_truth": "experiments/dba/05/data/gt_associations.csv",
+      "initializers": {
+        "slideslam_core": "experiments/dba/05/initial_associations.csv"
+      },
+      "num_robots": 3,
+      "num_objects": 259,
+      "plane_axes": "xy"
+    },
+    {
+      "name": "07",
+      "data_dir": "experiments/dba/07/data",
+      "metadata": "experiments/dba/07/data/local_object_metadata.csv",
+      "lower_topology": "experiments/dba/lower_topology.csv",
+      "upper_topology": "experiments/dba/upper_topology.csv",
+      "ground_truth": "experiments/dba/07/data/gt_associations.csv",
+      "initializers": {
+        "slideslam_core": "experiments/dba/07/initial_associations.csv"
+      },
+      "num_robots": 3,
+      "num_objects": 168,
+      "plane_axes": "xy"
+    }
+  ]
+}

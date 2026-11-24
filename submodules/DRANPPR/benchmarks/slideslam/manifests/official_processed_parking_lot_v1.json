@@ -1,0 +1,77 @@
+{
+  "schema_version": "slideslam_benchmark_manifest_v1",
+  "benchmark_id": "slideslam_official_processed_parking_lot_v1",
+  "description": "Official SlideSLAM processed parking-lot demo bags; replayed as three robot streams without a simultaneous-team claim",
+  "native_multi_robot": false,
+  "require_temporal_overlap": false,
+  "source": {
+    "project_url": "https://github.com/KumarRobotics/SLIDE_SLAM",
+    "data_subdirectory": "parking-lot",
+    "official_commit": "63c78b9995b1e068dc0f185b3550e837b524833c",
+    "official_checkout": "baselines/official/SLIDE_SLAM",
+    "adapter_binary": "baselines/object_association/adapters/slideslam_official/build-local/slideslam_semantic_clipper"
+  },
+  "sources": [
+    {
+      "robot_id": 0,
+      "filename_patterns": ["*robot0*.bag", "*robot_0*.bag"],
+      "replay_offset_seconds": 60.0
+    },
+    {
+      "robot_id": 1,
+      "filename_patterns": ["*robot1*.bag", "*robot_1*.bag"],
+      "replay_offset_seconds": 60.0
+    },
+    {
+      "robot_id": 2,
+      "filename_patterns": ["*robot2*.bag", "*robot_2*.bag"],
+      "replay_offset_seconds": 0.0
+    }
+  ],
+  "required_message_types": {
+    "odometry": ["nav_msgs/msg/Odometry", "nav_msgs/Odometry"],
+    "semantic": ["sloam_msgs/msg/SemanticMeasSyncOdom", "sloam_msgs/SemanticMeasSyncOdom"]
+  },
+  "topic_aliases": {
+    "odometry": ["/Odometry", "/odom", "/odometry", "/robot_odom", "/quadrotor/odom"],
+    "semantic": ["/robot0/semantic_meas_sync_odom", "/semantic_meas_sync_odom", "/semantic_meas_sync_odom_raw", "/sloam/semantic_meas_sync_odom"]
+  },
+  "extraction": {
+    "object_types": ["cuboid"],
+    "keyframe_translation_m": 0.5,
+    "keyframe_rotation_deg": 10.0,
+    "keyframe_elapsed_s": 1.0,
+    "local_cuboid_match_distance_m": 2.0,
+    "local_track_consistency_distance_m": 2.0
+  },
+  "association": {
+    "root_robot": 0,
+    "sigma": 0.1,
+    "epsilon": 0.3,
+    "min_pairs": 5,
+    "min_map_objects": 20,
+    "matching_threshold": 0.1,
+    "hard_projection_distance_m": 2.0,
+    "minimum_observing_robots": 2
+  },
+  "objective": {
+    "odometry_kappa": 1.0,
+    "odometry_tau": 1.0,
+    "observation_kappa": 1.0,
+    "observation_tau": 1.0
+  },
+  "initialization": {
+    "fixed_robot_id": 0,
+    "fixed_pose_local_index": 0,
+    "translation_perturbation_m": 0.1,
+    "rotation_perturbation_deg": 3.0
+  },
+  "evaluation": {
+    "seeds": [0, 1, 2],
+    "fixed_checkpoints": [1, 2, 5, 10, 20, 50],
+    "max_iterations": 50,
+    "relative_cost_tolerance": 1e-6,
+    "gradient_tolerance": 1e-4,
+    "consecutive_rounds": 3
+  }
+}

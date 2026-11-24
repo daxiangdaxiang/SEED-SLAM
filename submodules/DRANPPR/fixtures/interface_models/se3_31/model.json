@@ -1,0 +1,48 @@
+{
+  "robots": [
+    0,
+    1
+  ],
+  "objects": 4,
+  "dimension": 24,
+  "full_solve_relative_error": 2.36280424954355e-07,
+  "local_private_max_relative_residual": 3.7740684018361184e-16,
+  "scope": "Genuine SE3 Jacobian with 6-DoF object poses; fixed tangent quadratic ONLY",
+  "row_setup": "Offline pre-distributed owner rows, not a model-exchange implementation",
+  "links": [
+    [
+      0,
+      1
+    ]
+  ],
+  "indices": {
+    "0": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "1": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ]
+  }
+}
